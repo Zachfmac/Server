@@ -27,7 +27,6 @@ XP:
 #########################################
 aliases:
     ironEquipment: [256, 257, 258, 267, 292]
-    stoneEquipment: [272, 273, 274, 275, 291]
     goldEquipment: [283, 284, 285, 286, 294]
     diamondEquipment: [276, 277, 278, 279, 293]
     miscWeapons: [261, 262]
@@ -39,15 +38,6 @@ aliases:
 #
 #########################################
 rules:
-    stoneEquipment:
-        description: 'use of stone equipment until level 1.' 
-        messages:
-            restricted: 'You cannot %s %s until level 1'
-        actions: [USE, CRAFT, PICKUP]
-        xp:
-            min: 1
-        items:
-            restrict: ['stoneEquipment']
     ironEquipment:
         description: 'Use of iron equipment until level 2' 
         messages:
