@@ -1,7 +1,7 @@
 # Enable or disable whitelist
 Enabled: true
 FileCheckInterval: 10
-KickMessage: '&bYou must be &2approved&b by an &4Admin&b to play on StargateMC.com - please register and wait between 24-48 hours for approval!'
+KickMessage: '&bYou must be &2registered&b and &2approved&b by an &4Admin&b to play on StargateMC.com - please register and wait between 24-48 hours for approval!'
 SqlEnable: true
 SqlDriver: com.mysql.jdbc.Driver
 SqlDriverConnection: jdbc:mysql://localhost/stargatemc_site
