@@ -399,10 +399,6 @@ function drawBookmarksPage()
 end
 
 function drawRemoteIris()
-  mon.setBackgroundColor(colors.black)
-  x,y = mon.getSize()
-  mon.setCursorPos(x/2-1, y/2+4)
-  mon.write("IRIS.")
 end
 
 function inputPage(type)
