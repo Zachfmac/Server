@@ -26,11 +26,7 @@ allowedGroups:
   - ANY
 
 allowedTools:
-  - FISHING_ROD
-  - SHEARS
-  - STONE
-  - WOOD
-  - IRON_PICKAXE
+  - all
 
 levels:
     0:
