@@ -1,8 +1,8 @@
-name: Assassin
+name: Warrior
 chattag: "\u4889"
 
-description: Sodan trained, deadly assassin
-longdescription: "After training with the Sodan and learning to use phasing technology, Assassins were set out into the universe to bring law and order to the furthest reaches"
+description: Sodan trained, deadly Warrior
+longdescription: "After training with the Sodan and learning to use phasing technology, Warriors were set out into the universe to bring law and order to the furthest reaches"
 
 mainclassonly: true
 subclassonly: false
