@@ -5,16 +5,16 @@ debugMode: false
 #-------------------
 
 # MySQL database login details  - only needed if  useMySQL is true
-useMySQL: false
-sqlUsername: username
-sqlPassword: password
+useMySQL: true
+sqlUsername: root
+sqlPassword: S0ulM@t3
 sqlHostname: localhost
 sqlPort: 3306
-sqlDatabase: legendquest
+sqlDatabase: stargatemc
 sqlPrefix: "lq_"
 sqlKeepAliveInterval: 60
 
-backupSQlite: true
+backupSQlite: false
 SQLiteSaves: 3
 backupLQlog: true
 LQLogSaves: 5
@@ -56,9 +56,9 @@ manageHealthNonLqWorlds: true
 # percentXpLossRespawn: amount of XP to drop/loose on death/respawn
 # scaleXP: amount of XP received to apply.
 
-max_level: 150
-mastery_level: 0
-hardLevelCap: false
+max_level: 100
+mastery_level: 100
+hardLevelCap: true
 
 XPnotify: true
 percentXpKeepClassChange: 10.00
@@ -159,7 +159,7 @@ disableStats: false
 attributesModifyBaseStats: false
 healthScale: 40
 
-itemsAllMeansAll: false
+itemsAllMeansAll: true
 
 scaleFallDamagePlayers: 100.00
 scaleFallDamageMobs: 100.00
@@ -191,8 +191,8 @@ broadcastRename: true
 # ecoClassSwap: amount to pay to switch class
 # ecoRaceSwap: amount to pay to switch race
 
-ecoClassSwap: 1000
-ecoRaceSwap: 10000
+ecoClassSwap: 10000
+ecoRaceSwap: 1000000
 
 #--------------------
 
@@ -201,7 +201,7 @@ ecoRaceSwap: 10000
 
 blockRepairXPloss: true
 adjustRepairXP: 50.0
-useAlternateRepairExpCost: false
+useAlternateRepairExpCost: true
 
 manaCostPerRepairLevel: 10
 ecoCostPerRepairLevel: 1000
@@ -217,7 +217,7 @@ partyRange: 32
 useParties: true
 partyBonus: 50
 blockPartyPvP: true
-allowPartyTeleport: true
+allowPartyTeleport: false
 ecoPartyTeleport: 100
 
 
