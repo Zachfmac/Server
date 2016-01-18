@@ -1,8 +1,0 @@
-# All times are in miliseconds - 1000 ms = 1s.
-# place skill definitions here exactly as in class/race files to set defaults.
-# these values will be asumes if not overrideen by a class/race definition.
-# usefull if you give seveal classes/races the same skills.
-
-skills:
-
-    
