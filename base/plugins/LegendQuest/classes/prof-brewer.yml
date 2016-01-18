@@ -25,9 +25,7 @@ allowedGroups:
   - ANY
 
 allowedTools:
-  - SHEARS
-  - STONE
-  - WOOD
+  - all
 
 levels:
     0:
