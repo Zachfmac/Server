@@ -24,7 +24,7 @@ statmods:
 
 allowCrafting: true
 allowSmelting: true
-allowBrewing: 
+allowBrewing: true
 allowEnchating: true
 allowRepairing: true
 allowTaming: true
