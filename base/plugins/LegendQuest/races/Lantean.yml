@@ -29,9 +29,6 @@ allowEnchating: true
 allowRepairing: true
 allowTaming: true
 
-allowedTools: [ ALL ]
-allowedWeapons: [ ALL ] 
-
 groups:
   - Humanoid
 
