@@ -191,8 +191,8 @@ broadcastRename: true
 # ecoClassSwap: amount to pay to switch class
 # ecoRaceSwap: amount to pay to switch race
 
-ecoClassSwap: 10000
-ecoRaceSwap: 1000000
+ecoClassSwap: -10000
+ecoRaceSwap: -1000000
 
 #--------------------
 
