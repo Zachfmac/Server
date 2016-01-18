@@ -1,8 +1,8 @@
-name: Rouge
+name: Assassin
 chattag: "\u4889"
 
-description: Opportunistic survivalist.
-longdescription: "Using stealth to steal and backstab."
+description: Sodan trained, deadly assassin
+longdescription: "After training with the Sodan and learning to use phasing technology, Assassins were set out into the universe to bring law and order to the furthest reaches"
 
 mainclassonly: true
 subclassonly: false
@@ -27,12 +27,12 @@ statmods:
   chr: 1
 
 allowedRaces:
-  - human
-  - hobbit
-  - half-orc
+  - Tauri
+  - Jaffa
+  - Lantean
   
 allowedGroups:
-  - Elvish
+  - Humanoid
 
 allowedArmour:
   - leatherarmour
@@ -63,7 +63,7 @@ skillPoints: 0
 skillPointsPerLevel: 0.0
 
 skills:
-    Rogue-SwordMaster:
+    Assassin-SwordMaster:
         level: 0
         cost: 0
         skillname: weaponmaster
