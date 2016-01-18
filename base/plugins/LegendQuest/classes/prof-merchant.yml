@@ -1,0 +1,92 @@
+name: Merchant
+chattag: "$"
+
+description: That's cuttin' me own throat.
+longdescription: |
+  Merchants can setup shops and fence stolen goods.
+  Sub-Class only
+
+default: false
+
+mainclassonly: false
+subclassonly: true
+
+statmods:
+  str: 0
+  dex: 0
+  int: 0
+  wis: 0
+  con: 0
+  chr: 2
+
+allowCrafting: true
+allowSmelting: false
+allowBrewing: false
+allowEnchating: false
+allowRepairing: true
+allowTaming: false
+
+allowedRaces:
+  - ANY
+allowedGroups:
+  - ANY
+
+allowedTools:
+  - SHEARS
+  - STONE
+  - WOOD
+
+xpAdjustKill: 0.0
+xpAdjustSmelt: 0.0
+xpAdjustMine: 5.0
+
+skills:
+    fencer: 
+        level: 50
+        cost: 0
+        mana: 10
+        pay: 100
+        xp: 10
+        skillname: fence
+        description: Fence stolen goods (remove STOLEN! marker).
+
+permskills:
+    Shop:
+        level: 1
+        type: PASSIVE
+        cost: 0
+        description: Own and run a chest shop.
+        perms:
+        - chestshop.shop.buy
+        - chestshop.shop.create
+        - chestshop.shop.create.buy
+        - chestshop.shop.create.sell
+        - chestshop.shop.sell
+        - imagicraft.repair
+        - se.repair
+    ShopKeep:
+        level: 50
+        type: PASSIVE
+        cost: 0
+        description: Own and run a shopkeeper NPC.
+        perms:
+        - shopkeeper.player
+        - shopkeeper.villager
+        - shopkeeper.sign
+        - shopkeeper.witch
+        - imagicraft.repair
+    Tennent:
+        description:  Own and run a market shop plot.
+        level: 30
+        type: PASSIVE
+        cost: 0
+        perm: landlord.rent
+    Landlord:
+        description:  Buy a market shop plot.
+        level: 150
+        type: PASSIVE
+        cost: 0
+        perms:
+        - landlord.buy
+        - landlord.sell
+            

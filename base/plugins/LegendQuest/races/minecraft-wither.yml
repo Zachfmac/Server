@@ -1,0 +1,54 @@
+name: Wither
+plural: Wither
+chattag: "\u2646"
+
+description: "At home in the nether, withers are unharmed by fire."
+longdescription: "Violent race, unharmed by fire, but unable to tolerate water"
+
+size: 1.8
+frequency: 20
+default: false
+
+perm: legendquest.race.wither
+
+basehealth: 30
+baseMana: 5
+manaPerSecond: 1
+
+statmods:
+  str: 1
+  dex: 0
+  int: -1
+  wis: 0
+  con: 2
+  chr: -2
+
+groups:
+  - Humanoid
+  - Wither
+
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+skills:
+    Fireproof:
+        skillname: Invulnerability
+        level: 0
+        cost: 0
+        vars:
+            reduction: 100.0
+            types: FIRE,FIRE_TICK,LAVA
+    HydroPhobic:
+        skillname: HydroPhobe
+        level: 0
+        cost: 0
+        vars:
+            raindamage: 0.5
+            raindamageinterval: 5
+            damage: 0.5
+            damageinterval: 5
+            waterstatmod: 1
+            rainstatmod: 1
+            
+    
+

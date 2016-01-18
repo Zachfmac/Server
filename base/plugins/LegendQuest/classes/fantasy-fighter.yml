@@ -1,0 +1,201 @@
+name: Fighter
+chattag: "\u2694"
+
+description: Trained Warrior
+longdescription: "Fighters have a large range of skills to increase combat performance, and a reasonable health.  "
+
+mainclassonly: true
+subclassonly: false
+
+frequency: 1000
+default: false
+
+healthmod: 10
+healthperlevel: 0.3
+#0.3 x 150 = 45
+
+manaBonus: 10
+manaPerSecond: 1
+manaPerLevel: 0.333334
+#0.333334 x 150 = 50
+
+statmods:
+  str: 2
+  dex: 1
+  int: 0
+  wis: 0
+  con: 1
+  chr: -1
+
+allowedRaces:
+  - ANY
+allowedGroups:
+  - ANY
+
+allowedArmour:
+  - leatherarmour
+  - ironarmour
+  - chainarmour
+allowedWeapons:
+  - WOOD
+  - STONE
+  - IRON_PICKAXE
+  - IRON_SWORD
+  - IRON_AXE
+  - GOLD_AXE
+allowedTools:
+  - irontools
+  - woodtools
+  - stonetools
+  - GOLD_AXE
+
+dissallowedTools:
+  - fishing_rod
+  
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+levels:
+    50:
+        power: 1
+    100:
+        power: 1
+        allowweapon: DIAMOND_AXE
+        allowtools: DIAMOND_AXE
+    150:
+        power: 1
+        allowweapon: DIAMOND_SWORD
+
+
+skills:
+    Fighter-AxeMaster:
+        level: 0
+        cost: 0
+        skillname: weaponmaster
+        description: Increased damage from axes
+        vars:
+            chance: 90.0
+            damage: 3
+            weapons: "WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE"
+    Fighter-SwordMaster:
+        level: 0
+        cost: 0
+        skillname: weaponmaster
+        description: Increased damage from swords
+        vars:
+            chance: 100.0
+            damage: 3
+            weapons: "WOOD_SWORD,STONE_SWORD,IRON_SWORD,GOLD_SWORD,DIAMOND_SWORD"
+    Fighter-Brawler:
+        skillname: brawler
+        description: Chance for increased damage with fists 
+        level: 10
+        cost: 0
+        vars:
+            damage: 5
+            chance: 75.5
+    Root:
+        skillname: Immobilise
+        description: Slow down target
+        level: 25
+        cost: 0
+        manaCost: 25
+        duration: 15000
+        cooldown: 30000
+        vars:
+           distance: 25
+           speed: 0.05
+    Might:
+        skillname: aura
+        description: Increase combat damage for 30 seconds.
+        level: 50
+        cost: 0
+        manaCost: 15
+        buildup: 3000
+        duration: 30000
+        cooldown: 60000
+        vars:
+            effect: INCREASE_DAMAGE
+            message: "It's over nine thousand!"
+    Charge:
+        skillname: hurt
+        description: Charge into melee with target, with impact damage
+        level: 75
+        cost: 0
+        manaCost: 20
+        cooldown: 30000
+        vars:
+            distance: 16
+            teleport: 1
+            explodepower: 0.0
+            chance: 100.0
+            damage: 10.0
+            explode: 0
+            bypassmagicarmour: 1
+            explodeblocks: 0
+            explodefire: 0
+            effectsduration: 10000
+            effects: "BLEED,STUNNED"
+            material: ""
+    One:
+        skillname: boost
+        description: Double speed for 15s
+        level: 100
+        cost: 0
+        manaCost: 30
+        duration: 15000
+        cooldown: 30000
+        vars:
+            speed: 0.45
+    Cripple:
+        skillname: hex
+        description: Good chance of inflicting a crippling effect on melee target
+        level: 125
+        cost: 0
+        manaCost: 30
+        duration: 30000
+        vars:
+            chance: 90.0
+            effect: WITHER
+            message: "It's super effective"
+            weapons: "hand,WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE,WOOD_SWORD,STONE_SWORD,IRON_SWORD,GOLD_SWORD,DIAMOND_SWORD"
+    Thor:
+        level: 150
+        description: Use an axe to inflict an earthshaking blow.
+        cost: 0
+        manaCost: 10
+        vars:
+            damage: 8.0
+            radius: 4
+            weapons: "WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE"
+
+permskills:
+    CombatInfo:
+        level: 0
+        description: Receive information on damage inflicted and remaining health of target.
+        cost: 0
+        type: PASSIVE
+        perm: mobhealth.show
+        
+loadouts:
+    Combat:
+        skills:
+          - root
+          - might
+          - charge
+          - one
+          - cripple
+          - thor
+        activator:
+            material: IRON_INGOT
+            customname: 
+            lore: 
+        repository:
+            material: IRON_INGOT
+            customname: 
+            lore: 
+        blockitemuse: false
+
+xpAdjustKill: 10.0
+xpAdjustSmelt: 0.0
+xpAdjustMine: 0.0

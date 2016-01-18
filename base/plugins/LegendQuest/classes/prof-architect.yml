@@ -1,0 +1,45 @@
+name: Architect
+chattag: "\u1F3E0"
+
+description: Can you fix it? Yes you can!
+longdescription: |
+  Architect can craft and smelt.
+  Sub-Class only
+
+default: false
+
+mainclassonly: false
+subclassonly: true
+
+statmods:
+  str: 1
+  dex: 1
+  int: 0
+  wis: 0
+  con: 0
+  chr: 0
+
+levels:
+    0:
+        allowcraft: builder,workshop,crafttools
+        allowsmelt: smelting
+    50:
+        allowcraft: art
+    100:
+        allowcraft: decorations
+        
+        
+allowedRaces:
+  - ANY
+allowedGroups:
+  - ANY
+
+allowedTools:
+  - SHEARS
+  - STONE
+  - WOOD
+
+xpAdjustKill: 0.0
+xpAdjustSmelt: 10.0
+xpAdjustMine: 0.0
+    

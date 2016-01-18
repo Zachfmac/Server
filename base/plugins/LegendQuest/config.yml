@@ -1,0 +1,223 @@
+# Default LegendQuest config.
+
+debugMode: false
+
+#-------------------
+
+# MySQL database login details  - only needed if  useMySQL is true
+useMySQL: false
+sqlUsername: username
+sqlPassword: password
+sqlHostname: localhost
+sqlPort: 3306
+sqlDatabase: legendquest
+sqlPrefix: "lq_"
+sqlKeepAliveInterval: 60
+
+backupSQlite: true
+SQLiteSaves: 3
+backupLQlog: true
+LQLogSaves: 5
+
+#-------------------
+
+# if true - each player name will have a random internal stat .
+# Uses player uuid as seed.  If false all stats have same base values. 
+randomStats: true
+
+#-------------------
+
+## Logs
+# logSQL: set to true to log all sql calls in debug log
+# logLevel: ALL  Level of logging select from SEVERE, WARNING, INFO, CONFIG, FINE, FINER, and FINEST
+
+logSQL: true
+logLevel: ALL
+useServerLogOnly: false
+
+#-------------------
+
+## Per world settings
+# worlds: List of Worlds to allow LQ.  Leave blank to allow all.
+# manageHealthNonLqWorlds: should LQ track health on no-lq worlds to restore health when switching worlds.
+# if you have another plugin managing health on these worlds then you can switch this to false. (or if other worlds are creative). 
+
+worlds: []
+manageHealthNonLqWorlds: true
+
+#-------------------
+
+## Experience
+# max-level: level at which class is considered mastered.
+# XPnotify: report xp gain amount to player
+# percentXpKeepClassChange: amount of XP to keep if switching class before mastery.
+# allowRaceSwap: set to true to enable changing race.
+# percentXpKeepClassChange: amount of XP to keep if switching race.
+# percentXpLossRespawn: amount of XP to drop/loose on death/respawn
+# scaleXP: amount of XP received to apply.
+
+max_level: 150
+mastery_level: 0
+hardLevelCap: false
+
+XPnotify: true
+percentXpKeepClassChange: 10.00
+allowRaceSwap: false
+percentXpKeepRaceChange: 50.00
+percentXpLossRespawn: 10.00
+scaleXP: 100.0
+
+#-------------------
+
+## Combat
+# useSkillTestForCombat: True to do opposing dexterity checks in combat.  Results in average opponents missing 50% of "hits", but lets skilled combatants hit more often compared to unskilled. and a greater RPG feel.
+# verboseCombat: Report all hits/misses in combat
+# hideHitMessage: Hide hit messages in combat
+# useSizeForCombat: adjust skill test difficulties based on sizes making large targets easier and small harder.
+# rangedHitBonus: bonus to ranged attacks to offset time spent drawing.
+# heightBonus: melee bonus if attacker is over 1 block higher than defender.
+# hitchance, dodgechance, blockchance: base target difficulty use one of...  
+#    VERY_EASY (0),
+#    EASY (5),
+#    AVERAGE (10),
+#    TOUGH (15),
+#    CHALLENGING (20);
+
+useSkillTestForCombat: true
+verboseCombat: true
+hideHitMessage: false
+useSizeForCombat: true
+rangedHitBonus: 10
+heightBonus: 2
+hitchance: AVERAGE
+dodgechance: AVERAGE
+blockchance: TOUGH
+
+#-------------------
+
+## Karma
+# karmaScale:  base scale or each 'level' of karma = each level 1 = scale^1, level 2 = scale^2, level 3= scale^3 etc etc 
+# karmaDamage/karmaKill points are awarded for the appropriate action.
+karmaScale: 500
+
+karmaDamagePlayer: -100
+karmaDamageVillager: -50
+karmaDamagePet: -20
+karmaDamageAnimal: -1
+karmaDamageMonster: 2
+karmaDamageSlime: 1
+
+karmaKillPlayer: -10000
+karmaKillVillager: -500
+karmaKillPet: -200
+karmaKillAnimal: -50
+karmaKillMonster: 20
+karmaKillSlime: 10
+
+#-------------------
+
+## Skills
+# skillBuildupMoveAllowed:  distance allowed to make during buildup phase of skills
+# skillTickInterval: interval between processing skill timings.  increasing reduces server load - but makes skill duration/cooldown less accurate.
+
+skillBuildupMoveAllowed: 2.0
+skillTickInterval: 10
+
+#---------------------
+
+## Chat
+# chatUsePrefix: Should chatPrefix be added to the chat format. 
+# chatProcessPrefix: Should {race} and {class} in format string be processed.
+# chatPrefix: Prefix to use.  {current} is replaced with the existing format.
+#
+# if you use another plugin to process chat you should set chatUsePrefix to false, chatProcessPrefix to true and add {race} and {class} to the format string. 
+
+chatUsePrefix: true
+chatProcessPrefix: true
+chatPrefix: "[{race}|{class}] {current}"
+
+#--------------------
+
+## ScoreBoards
+# useScoreBoard : enable scoreboard system.  disable to prevent conflicts with other scoreboard based plugins.
+
+useScoreBoard: true
+usePlayerSlot: true
+showPlayerHealth: true
+showListLevels: true
+
+#--------------------
+
+## Mechanics
+# verboseStats: whether to show stats in one line (false), or on separate lines (true). 
+# disableStats: bypass the stats/attribute system.
+# attributesModifyBaseStats: allow attributes to modify the base stats for mana/health/skill points as well as per level
+# healthScale: maximum hearts to display in client (1 = half heart)
+
+verboseStats: true
+disableStats: false
+attributesModifyBaseStats: false
+healthScale: 40
+
+itemsAllMeansAll: false
+
+scaleFallDamagePlayers: 100.00
+scaleFallDamageMobs: 100.00
+
+givePermForLevels: true
+givePermForAttributes: false
+givePermForKarma: false
+
+#--------------------
+
+## Rename blacklist
+# nameBlacklist
+
+nameBlacklist:
+  - gemerald
+  - sablednah
+  - dinnerbone
+  - grumm
+nameBlacklistParts:
+  - fuck
+  - faggot
+  - sablednah
+broadcastRename: true
+  
+  
+#--------------------
+
+## Ecconomy
+# ecoClassSwap: amount to pay to switch class
+# ecoRaceSwap: amount to pay to switch race
+
+ecoClassSwap: 1000
+ecoRaceSwap: 10000
+
+#--------------------
+
+## Repairing
+
+
+blockRepairXPloss: true
+adjustRepairXP: 50.0
+useAlternateRepairExpCost: false
+
+manaCostPerRepairLevel: 10
+ecoCostPerRepairLevel: 1000
+materialRepairCost: "LAPIS_BLOCK"
+materialRepairQtyPerLevel: 1
+
+
+#-------------------
+
+## Parties
+
+partyRange: 32
+useParties: true
+partyBonus: 50
+blockPartyPvP: true
+allowPartyTeleport: true
+ecoPartyTeleport: 100
+
+

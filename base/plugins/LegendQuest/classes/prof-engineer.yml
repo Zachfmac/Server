@@ -1,0 +1,51 @@
+name: Engineer
+chattag: "\u1F477"
+
+description: Pew-Pew! 
+longdescription: |
+  Redstone construction specialist
+  Sub-Class only
+
+default: false
+
+mainclassonly: false
+subclassonly: true
+
+statmods:
+  str: 0
+  dex: 0
+  int: 0
+  wis: 1
+  con: 1
+  chr: 0
+
+levels:
+    0:
+        allowcraft: mechanics,workshop,crafttools
+        allowsmelt: smelting
+    50:
+        allowcraft: transport
+    100:
+        allowcraft: decorations
+
+allowedRaces:
+  - ANY
+allowedGroups:
+  - ANY
+
+allowedTools:
+  - SHEARS
+  - STONE
+  - WOOD
+
+xpAdjustKill: 0.0
+xpAdjustSmelt: 10.0
+xpAdjustMine: 0.0
+    
+permskills:
+      FoodTechnician:
+        description:  Build a food micronwave
+        level: 150
+        type: PASSIVE
+        cost: 0
+        perm: se.micronwave

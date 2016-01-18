@@ -1,0 +1,32 @@
+name: Undecided
+plural: Undecided
+chattag: "-"
+
+size: 1.6
+frequency: 0
+default: true
+basehealth: 20
+
+baseMana: 0
+manaPerSecond: 0
+
+# -2 mods set attribute modifiers to defaults of 0. (or average of 0 if using random stats)
+statmods:
+  str: -2
+  dex: -2
+  int: -2
+  wis: -2
+  con: -2
+  chr: -2
+  
+groups:
+  - None
+  
+skillPoints: 0
+skillPointsPerLevel: 0
+
+levels:
+    0:
+        allowcraft: "common"
+        allowsmelt: "cooking"
+        

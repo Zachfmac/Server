@@ -1,0 +1,41 @@
+name: Human
+plural: Humans
+chattag: "H"
+
+description: "'Standard' Human race"
+longdescription: "Normal race with no benefits or penalties"
+
+size: 1.6
+frequency: 1000
+default: false
+
+basespeed: 0.2
+basehealth: 20
+baseMana: 10
+manaPerSecond: 1
+
+statmods:
+  str: 0
+  dex: 0
+  int: 0
+  wis: 0
+  con: 0
+  chr: 0
+
+allowCrafting: true
+allowSmelting: false
+allowBrewing: false
+allowEnchating: false
+allowRepairing: false
+allowTaming: false
+
+groups:
+  - Humanoid
+  
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+xpAdjustKill: 100.0
+xpAdjustSmelt: 100.0
+xpAdjustMine: 100.0
+

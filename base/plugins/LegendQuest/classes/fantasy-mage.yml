@@ -1,0 +1,292 @@
+name: Mage
+chattag: "\u2695"
+
+description: Powerful Spellcaster
+longdescription: "Lacking in health and defence, mages have a wide range of powerful spells at their command"
+
+mainclassonly: true
+subclassonly: false
+
+frequency: 500
+default: false
+
+healthmod: 0
+healthperlevel: 0.1
+#150 x 0.1 = 15
+
+manaBonus: 20
+manaPerSecond: 2
+manaPerLevel: 0.5
+# 150 x 0.5 = 75
+
+statmods:
+  str: -1
+  dex: 1
+  int: 1
+  wis: 2
+  con: -1
+  chr: 0
+
+allowedRaces:
+  - Human
+  
+allowedGroups:
+  - Elvish
+  - Gnomish
+  - Ender
+
+allowedArmour:
+  - leatherarmour
+  - chainarmour
+  
+allowedWeapons:
+  - ranged
+  - WOOD_SWORD
+  - stick
+  - BLAZE_ROD
+  
+allowedTools:
+  - woodtools
+  - stonetools
+  
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+skills:
+    StaffMaster:
+        skillname: weaponmaster
+        description: Increased damage from staffs (stocks+blaze-rod)
+        level: 0
+        cost: 0
+        vars:
+            chance: 100.00
+            damage: 5
+            weapons: "STICK,BLAZE_ROD"
+    MagicMissile:
+        level: 0
+        skillname: archer
+        manacost: 1
+        cooldown: 600
+        duration: 0
+        cost: 0
+        vars:
+            damage: 5.0
+            velocity: 1.0
+            knockback: 0
+            fire: 1
+            qty: 3
+            bowshot: 0
+            explode: 0
+            teleport: 0
+            fetch: 0
+            effects: STUNNED
+            material: "ICE"
+            materialduration: 1000
+            nopickup: 1
+    MagicMissile2:
+        level: 10
+        skillname: archer
+        manacost: 10
+        cooldown: 60000
+        cost: 0
+        vars:
+            damage: 5.0
+            velocity: 1.0
+            knockback: 0
+            fire: 1
+            qty: 3
+            bowshot: 0
+            explode: 0
+            teleport: 0
+            fetch: 0
+            effects: STUNNED
+            material: "ICE"
+            materialduration: 10000
+    HarmTouch:
+        level: 15
+        skillname: hurt
+        description: Damage and stun target up to 16 blocks.
+        cost: 0
+        manaCost: 20
+        cooldown: 10000
+        vars:
+            distance: 16
+            teleport: 0
+            explodepower: 0.0
+            chance: 100.0
+            damage: 15.0
+            explode: 0
+            radius: 1
+            bypassmagicarmour: 1
+            explodeblocks: 0
+            explodefire: 0
+            effectsduration: 8000
+            effects: STUNNED
+            material: ""
+    CreepingPain:
+        level: 30
+        skillname: hurt
+        description: Slowly damage target over 10s
+        cost: 0
+        manaCost: 10
+        cooldown: 10000
+        vars:
+            distance: 16
+            teleport: 0
+            explodepower: 0.0
+            chance: 100.0
+            damage: 1.0
+            explode: 0
+            radius: 0
+            bypassmagicarmour: 1
+            explodeblocks: 0
+            explodefire: 0
+            effectsduration: 10000
+            effects: BLEED
+            material: ""
+    ManaPotion:
+        skillname: SummonItems
+        description: Produces a mana potion.
+        level: 40
+        cost: 0
+        buildup: 5000
+        cooldown: 60000
+        manaCost: 10
+        pay: 10
+        xp: 10
+        vars:
+            material: POTION
+            qty: 1
+            data: 0
+            lore: "mp: 20"
+    Sheild:
+        skillname: MaterialShield
+        description: Spawn a sphere of glass around you for 15s
+        level: 50
+        cost: 0
+        manacost: 20
+        duration: 15000
+        cooldown: 30000
+        vars:
+            radius: 5
+            material: GLASS
+            replace: AIR,LONG_GRASS,DEAD_BUSH
+            hollow: 1
+    Dispel:
+        level: 70
+        skillname: heal
+        description: Dispel bad effects from target
+        cost: 0
+        manaCost: 35
+        cooldown: 15000
+        buildup: 3000
+        vars:
+            distance: 3
+            heal: 0.1
+            removeeffects: "SLOWBLEED,BLEED, POISON,WITHER,WEAKNESS,SLOW"
+    Despair:
+        skillname: enchant
+        description: Create area of despair that blind all targets in area for 10s.
+        level: 90
+        cost: 0
+        manaCost: 30
+        duration: 30000
+        cooldown: 10000
+        vars:
+            radius: 5
+            message: "Despair..."
+            effect: "BLINDNESS"
+    Wisdom:
+        skillname: statboost
+        description: Boost wisdom (and mana regeneration) for 10s
+        level: 100
+        manaCost: 0
+        cost: 0
+        xp: 10
+        pay: 10
+        duration: 10000
+        cooldown: 20000
+        consumes: REDSTONE
+        vars:
+            wis: 5
+            message: "Deep Thinking..."
+    Web:
+        level: 120
+        skillname: hurt
+        description: Web and slow down targets with area.
+        cost: 0
+        manaCost: 20
+        cooldown: 10000
+        vars:
+            distance: 16
+            teleport: 0
+            explodepower: 0.0
+            chance: 100.0
+            damage: 1.0
+            explode: 0
+            radius: 5
+            bypassmagicarmour: 1
+            explodeblocks: 0
+            explodefire: 0
+            effectsduration: 8000
+            effects: SLOW
+            material: "WEB"
+            materialduration: 10000
+    MegaBolt:
+        level: 150
+        skillname: hurt
+        description: Conjure massive lighting bolt on target
+        cost: 0
+        manaCost: 50
+        cooldown: 60000
+        vars:
+            distance: 8
+            teleport: 0
+            explodepower: 0.0
+            chance: 100.0
+            damage: 50.0
+            explode: 0
+            radius: 1
+            bypassmagicarmour: 1
+            explodeblocks: 0
+            explodefire: 0
+            effectsduration: 10000
+            effects: STUNNED
+            material: ""
+            lightning: 1            
+
+loadouts:
+    AttackSpells:
+        skills:
+          - MagicMissile
+          - HarmTouch
+          - CreepingPain
+          - Despair
+          - Web
+          - MegaBolt
+        activator:
+            material: BOOK
+            customname: 
+            lore: 
+        repository:
+            material: BOOK
+            customname: 
+            lore: 
+        blockitemuse: false
+    DefenceSpells:
+        skills:
+          - ManaPotion
+          - Sheild
+          - Dispel
+          - Wisdom
+        activator:
+            material: PAPER
+            customname: 
+            lore: 
+        repository:
+            material: PAPER
+            customname: 
+            lore: 
+        blockitemuse: false
+
+    

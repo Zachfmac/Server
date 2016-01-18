@@ -1,0 +1,79 @@
+name: Brewer
+chattag: "\u1F37A"
+
+description: Chemical Siblings Breaking Ungood
+longdescription: |
+  Brewers can use brewing stands and enchanting tables.
+  Sub-Class only
+  
+default: false
+
+mainclassonly: false
+subclassonly: true
+
+statmods:
+  str: 0
+  dex: 0
+  int: 1
+  wis: 2
+  con: 0
+  chr: -1
+
+allowedRaces:
+  - ANY
+allowedGroups:
+  - ANY
+
+allowedTools:
+  - SHEARS
+  - STONE
+  - WOOD
+
+levels:
+    0:
+        allowcraft: "BREWING_STAND_ITEM,BREWING_STAND,brewbasics" 
+        allowbrew: "brewbasics"
+    50:
+        allowbrew: "brewadvanced"
+        allowcraft: "brewadvanced"
+    100:
+        allowbrew: "brewimprove"
+        allowcraft: "brewimprove" 
+
+xpAdjustKill: 0.0
+xpAdjustSmelt: 10.0
+xpAdjustMine: 0.0
+
+
+skills:
+    PoisonAntidote:
+        level: 30
+        skillname: healingtouch
+        description: Cure poison and bleed effects.
+        pay: 10
+        xp: 10        
+        cost: 0
+        manaCost: 10
+        cooldown: 10000
+        buildup: 3000
+        vars:
+            heal: 1.0
+            removeeffects: "SLOWBLEED,BLEED, POISON"
+            chance: 100.00
+            effects: ""
+            effectsduration: 0
+    HealingBrew:
+        skillname: SummonItems
+        description: Summon healing potion.
+        pay: 10
+        xp: 10
+        level: 115
+        cost: 0
+        buildup: 3000
+        cooldown: 60000
+        manaCost: 10
+        vars:
+            material: POTION
+            qty: 1
+            data: 8197
+            

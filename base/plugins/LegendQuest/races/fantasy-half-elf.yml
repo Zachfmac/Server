@@ -1,0 +1,73 @@
+name: Half-Elf
+plural: Half-Elves
+chattag: "e"
+
+description: "Blend of human and elven characteristics"
+longdescription: "Half-Elves are somewhat nimble, but less fragile that Elves. They find it harder to attune to natural surroundings."
+
+size: 1.5
+frequency: 200
+default: false
+
+basespeed: 0.21
+basehealth: 18
+baseMana: 12
+manaPerSecond: 2
+
+statmods:
+  str: -1
+  dex: 1
+  int: 0
+  wis: 0
+  con: 0
+  chr: 0  
+
+allowCrafting: false
+allowSmelting: false
+allowBrewing: false
+allowEnchating: true
+allowRepairing: false
+allowTaming: false
+  
+groups:
+  - Humanoid
+  - Elvish
+  
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+xpAdjustKill: 100.0
+xpAdjustSmelt: 95.0
+xpAdjustMine: 95.0
+
+skills:
+    NatureLover:
+        skillname: BiomeSensitive
+        level: 0
+        cost: 0
+        vars:
+            regenerate: 0.5
+            regeninterval: 10
+            damage: 0.5
+            damageinterval: 10
+            healbonus: 1
+            hurttpenalty: 1
+            harmfullbiomes: "HELL,DESERT,DESERT_HILLS,DESERT_MOUNTAINS"
+            healingbiomes: "FLOWER_FOREST,ROOFED_FOREST,FOREST,FOREST_HILLS,BIRCH_FOREST,BIRCH_FOREST_HILLS"
+            harmspeed: 0.0
+            healspeed: 0.025
+    Naturalist:
+        skillname: BiomeSensitive
+        level: 150
+        cost: 0
+        vars:
+            regenerate: 0.0
+            regeninterval: 5
+            damage: 0.0
+            damageinterval: 5
+            healbonus: 1
+            hurttpenalty: 1
+            harmfullbiomes: "HELL"
+            healingbiomes: "FLOWER_FOREST,ROOFED_FOREST,ROOFED_FOREST_MOUNTAINS,MESA_PLATEAU_FOREST,MESA_PLATEAU_FOREST_MOUNTAINS,FOREST,FOREST_HILLS,BIRCH_FOREST,BIRCH_FOREST_HILLS,BIRCH_FOREST_HILLS_MOUNTAINS,BIRCH_FOREST_MOUNTAINS"
+            harmspeed: 0.0
+            healspeed: 0.025
