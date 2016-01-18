@@ -8,7 +8,7 @@ allowTeamKilling: false
 countMobKills: true
 rewardBasedOnXp: true
 maxWave: 100
-cashReward: 10000
+cashReward: 25000
 maxPlayers: 3
 minPlayers: 1
 scaledRewards:
