@@ -49,10 +49,7 @@ allowedGroups:
   - ANY
 
 allowedTools:
-  - FISHING_ROD
-  - SHEARS
-  - STONE
-  - WOOD
+  - all
 
 xpAdjustKill: 0.0
 xpAdjustSmelt: 10.0
