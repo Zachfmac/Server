@@ -35,19 +35,12 @@ allowedGroups:
   - Humanoid
 
 allowedArmour:
-  - leatherarmour
-  - SKULL
+  - all
 allowedWeapons:
-  - WOOD
-  - STONE
-  - IRON_PICKAXE
-  - GOLD_SWORD
-  - BOW
+  - all
   
 allowedTools:
-  - irontools
-  - woodtools
-  - stonetools
+  - all
 
 levels:
     50:
