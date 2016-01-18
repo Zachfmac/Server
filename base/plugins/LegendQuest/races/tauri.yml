@@ -1,0 +1,41 @@
+name: Tauri
+plural: Tauri
+chattag: "T"
+
+description: "Humanoid race with moderate technological capability"
+longdescription: "Tau'ri is the term used by the inhabitants of the Milky Way to refer to human beings from Earth. The word means 'first ones' or 'those from the first world', in the Goa'uld language, in the sense that all human life in the Milky Way began on Earth. "
+
+size: 1.1
+frequency: 1000
+default: false
+
+basespeed: 0.2
+basehealth: 20
+baseMana: 10
+manaPerSecond: 1
+
+statmods:
+  str: 0
+  dex: 0
+  int: 0
+  wis: 0
+  con: 0
+  chr: 0
+
+allowCrafting: true
+allowSmelting: true
+allowBrewing: true
+allowEnchating: true
+allowRepairing: true
+allowTaming: true
+
+groups:
+  - Humanoid
+  
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+xpAdjustKill: 100.0
+xpAdjustSmelt: 100.0
+xpAdjustMine: 100.0
+
