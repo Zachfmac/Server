@@ -36,15 +36,10 @@ allowedGroups:
   - Humanoid
 
 allowedArmour:
-  - leatherarmour
-  - chainarmour
+  - all
   
 allowedWeapons:
-  - stick
-  - BLAZE_ROD
-  - WOOD_SPADE
-  - GOLD_SPADE
-  - STONE_SPADE
+  - all
 
 levels:
     50:
@@ -53,8 +48,7 @@ levels:
         allowweapons: DIAMOND_SPADE
 
 allowedTools:
-  - woodtools
-  - stonetools
+  - all
   
 skillPoints: 0
 skillPointsPerLevel: 0.0
