@@ -29,8 +29,8 @@ allowEnchating: true
 allowRepairing: true
 allowTaming: true
 
-allowedTools: [ WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE,WOOD_PICKAXE,STONE_PICKAXE,IRON_PICKAXE,GOLD_PICKAXE,DIAMOND_PICKAXE ] 
-allowedWeapons: [ WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE ] 
+allowedTools: [ ALL ]
+allowedWeapons: [ ALL ] 
 
 groups:
   - Humanoid
