@@ -32,9 +32,7 @@ allowedGroups:
   - ANY
 
 allowedTools:
-  - SHEARS
-  - STONE
-  - WOOD
+  - all
 
 xpAdjustKill: 0.0
 xpAdjustSmelt: 0.0
