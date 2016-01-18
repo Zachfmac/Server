@@ -43,7 +43,7 @@ useServerLogOnly: false
 # if you have another plugin managing health on these worlds then you can switch this to false. (or if other worlds are creative). 
 
 worlds: []
-manageHealthNonLqWorlds: true
+manageHealthNonLqWorlds: false
 
 #-------------------
 
