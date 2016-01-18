@@ -1,8 +1,8 @@
-name: Cleric
+name: Healer
 chattag: "\u271A"
 
-description: Using faith to protect and support the party
-longdescription: "Clerics posses a range of healing and support skills"
+description: Uses the healing power to protect and support their allies
+longdescription: "Healers possess a range of healing and support abilities"
 
 mainclassonly: true
 subclassonly: false
@@ -28,12 +28,12 @@ statmods:
   chr: 0
 
 allowedRaces:
-  - Human
+  - Lantean
+  - Tauri
+  - Nox
   
 allowedGroups:
-  - Elvish
-  - Gnomish
-  - Ender
+  - Humanoid
 
 allowedArmour:
   - leatherarmour
