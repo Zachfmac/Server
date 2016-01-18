@@ -36,62 +36,10 @@ groups:
   - Humanoid
 
 skillPoints: 0
-skillPointsPerLevel: 3.0
+skillPointsPerLevel: 0.0
 
 xpAdjustKill: 90.0
 xpAdjustSmelt: 110.0
 xpAdjustMine: 120.0
 
 skills:
-    AxeMaster:
-        skillname: weaponmaster
-        level: 0
-        cost: 0
-        vars:
-            chance: 90.5
-            damage: 3
-            weapons: "WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE"
-    HiHo:
-        skillname: BiomeSensitive
-        level: 0
-        cost: 0
-        vars:
-            regenerate: 0.5
-            regeninterval: 5
-            damage: 0.0
-            damageinterval: 5
-            healbonus: 1
-            hurttpenalty: 1
-            harmfullbiomes: "FLOWER_FOREST,PLAINS,SKY,SAVANNA"
-            healingbiomes: "BIRCH_FOREST_HILLS_MOUNTAINS,BIRCH_FOREST_MOUNTAINS,COLD_TAIGA_MOUNTAINS,DESERT_MOUNTAINS,EXTREME_HILLS,EXTREME_HILLS_MOUNTAINS,EXTREME_HILLS_PLUS,EXTREME_HILLS_PLUS_MOUNTAINS,SAVANNA_MOUNTAINS,SAVANNA_PLATEAU,SAVANNA_PLATEAU_MOUNTAINS,SMALL_MOUNTAINS,SWAMPLAND_MOUNTAINS,TAIGA_MOUNTAINS"
-            harmspeed: 0.0
-            healspeed: 0.05
-    Mountaineer:
-        skillname: BiomeSensitive
-        level: 150
-        cost: 0
-        vars:
-            regenerate: 0.0
-            regeninterval: 5
-            damage: 0.0
-            damageinterval: 5
-            healbonus: 1
-            hurttpenalty: 1
-            harmfullbiomes: "FLOWER_FOREST,PLAINS,SKY,SAVANNA"
-            healingbiomes: "BIRCH_FOREST_HILLS_MOUNTAINS,BIRCH_FOREST_MOUNTAINS,COLD_TAIGA_MOUNTAINS,DESERT_MOUNTAINS,EXTREME_HILLS,EXTREME_HILLS_MOUNTAINS,EXTREME_HILLS_PLUS,EXTREME_HILLS_PLUS_MOUNTAINS,SAVANNA_MOUNTAINS,SAVANNA_PLATEAU,SAVANNA_PLATEAU_MOUNTAINS,SMALL_MOUNTAINS,SWAMPLAND_MOUNTAINS,TAIGA_MOUNTAINS"
-            harmspeed: 0.0
-            healspeed: 0.05
-    Geologist:
-        skillname: detect
-        description: Detail blocks along line of sight.
-        level: 50
-        cost: 0
-        manaCost: 5
-        cooldown: 10000
-    Topography:
-        level: 100
-        skillname: strata
-        description: Analyse ores in current chunk.
-        cooldown: 60000
-        mana: 10
-        cost: 0
