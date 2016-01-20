@@ -15,7 +15,7 @@ commands:
   log: true
   tab-complete: true
 settings:
-  bungeecord: true
+  bungeecord: false
   late-bind: false
   sample-count: 12
   timeout-time: 90
