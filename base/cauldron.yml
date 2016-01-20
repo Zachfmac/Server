@@ -80,8 +80,8 @@ world-settings:
     worldgen-TConstruct-SlimeIslandGen: true
     worldgen-IC2-IC2: true
     worldgen-Natura-BaseCropWorldgen: true
-    worldgen-StargateTech2-CoreWorldGenerator: true
-    worldgen-StargateTech2-AncientWorldGenerator: true
+    worldgen-StargateTech2-CoreWorldGenerator: false
+    worldgen-StargateTech2-AncientWorldGenerator: false
     worldgen-Natura-BaseTreeWorldgen: true
     worldgen-SGCraft-NaquadahOreWorldGen: true
     worldgen-mediccraft-PlantGen: true
