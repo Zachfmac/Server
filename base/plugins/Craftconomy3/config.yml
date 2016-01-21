@@ -3,14 +3,14 @@ System:
   QuickSetup:
     Enable: false
     Currency:
-      Name: Dollar
-      NamePlural: Dollars
-      Minor: Cent
-      MinorPlural: Cents
-      Sign: $
-    StartBalance: 50000.0
-    PriceBank: 200.0
-    DisplayMode: long
+      Name: Naquadah
+      NamePlural: Naquadah
+      Minor: Np
+      MinorPlural: Nps
+      Sign: <N>
+    StartBalance: 0
+    PriceBank: 1000.0
+    DisplayMode: MajorOnly
   CheckNewVersion: true
   Case-sentitive: false
   CreateOnLogin: false
