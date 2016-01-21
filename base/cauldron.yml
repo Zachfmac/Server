@@ -70,26 +70,27 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-Mekanism-GenHandler: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-MCA-SimpleOreGenerator: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-Oceancraft-WorldGeneratorOceancraft: true
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-IC2-IC2: true
-    worldgen-Natura-BaseCropWorldgen: true
-    worldgen-StargateTech2-CoreWorldGenerator: false
     worldgen-StargateTech2-AncientWorldGenerator: false
-    worldgen-Natura-BaseTreeWorldgen: true
-    worldgen-SGCraft-NaquadahOreWorldGen: true
     worldgen-mediccraft-PlantGen: true
-    worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-desertcraft-PamDesertPlantGenerator: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
     worldgen-Forestry-WorldGenerator: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-Oceancraft-WorldGeneratorOceancraft: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-MCA-SimpleOreGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-StargateTech2-CoreWorldGenerator: false
+    worldgen-desertcraft-PamDesertPlantGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-IC2-IC2: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
   max-players-visible: -1
 plugin-settings:
   default:
@@ -127,8 +128,6 @@ world-environment-settings:
     keep-world-loaded: false
   storage:
     keep-world-loaded: false
-  space:
-    keep-world-loaded: true
   orbit:
     keep-world-loaded: true
   jupiterorbit:
@@ -186,6 +185,8 @@ world-environment-settings:
   phobos:
     keep-world-loaded: true
     enabled: true
+  space:
+    keep-world-loaded: true
   surface:
     enabled: true
   europa:

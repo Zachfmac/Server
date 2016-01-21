@@ -73,4 +73,3 @@ commands:
         warmup: 10
   aliases:
     /town outpost: /town outpost 1
-

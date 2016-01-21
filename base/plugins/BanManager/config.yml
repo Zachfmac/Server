@@ -8,7 +8,7 @@ databases:
     port: 3306
     name: stargatemc
     user: root
-    password: 'S0ulM@t3'
+    password: S0ulM@t3
     maxConnections: 50
     tables:
       players: bm_players

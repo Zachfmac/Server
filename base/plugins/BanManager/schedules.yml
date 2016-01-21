@@ -14,13 +14,13 @@ scheduler:
   externalIpBans: 120
   saveLastChecked: 60
 lastChecked:
-  playerBans: 0
-  playerMutes: 0
-  playerWarnings: 0
-  ipBans: 0
-  ipRangeBans: 0
-  expiresCheck: 0
-  externalPlayerBans: 0
-  externalPlayerMutes: 0
   externalPlayerNotes: 0
+  playerMutes: 1453355900
+  ipRangeBans: 1453355900
+  expiresCheck: 1453355900
+  externalPlayerMutes: 0
+  playerBans: 1453355900
+  externalPlayerBans: 0
   externalIpBans: 0
+  playerWarnings: 1453355900
+  ipBans: 1453355900

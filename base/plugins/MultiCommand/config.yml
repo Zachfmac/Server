@@ -38,15 +38,17 @@ Commands:
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld-$2 enabled:false'
   - '[1]/dynmap pause none'
-  
   GOTO_HOMEWORLD:
   - /mw load $1-homeworld-$2
   - '[2]/mw move $1 $1-homeworld-$2'
-  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 3'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling
+    into the void while the world loads. Position unlock in: 3'
   - '[2]/mw move $1 $1-homeworld-$2'
-  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 2'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling
+    into the void while the world loads. Position unlock in: 2'
   - '[2]/mw move $1 $1-homeworld-$2'
-  - '[1]/tell $1 You are being held in place for several seconds to prevent falling into the void while the world loads. Position unlock in: 1'
+  - '[1]/tell $1 You are being held in place for several seconds to prevent falling
+    into the void while the world loads. Position unlock in: 1'
   - '[2]/mw move $1 $1-homeworld-$2'
   - '[1]/tell $1 You are now free to move around!'
   TUTORIAL_CHAT_JOIN:

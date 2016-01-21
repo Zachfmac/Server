@@ -5,6 +5,7 @@ random-event-frequency: 2
 dividend-frequency: 5
 pay-offline-players: false
 broadcast-events: true
+debug-mode: false
 broadcast-payouts: true
 mysql:
   ip: localhost
