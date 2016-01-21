@@ -8,36 +8,27 @@
 #############################################################################
 
 ranks:
-    Tauri:
+    Newcomer:
         requirements:
             global time:
                 value: 1d
             total time:
                 value: 7d
         results:
-            rank change: Tauri;Tollan
-            command: 'pushcommand addmember Tollan &p;'
-            message: 'You have been assigned to the Tollan rank.'
-    Tollan:
+            rank change: Newcomer;Player
+            command: 'pushcommand delmember Newcomer &p;pushcommand addmember Player &p;'
+            message: 'You have been assigned to the Player rank as youve been in the StargateMC universe for a while.'
+    Player:
         requirements:
             global time:
                 value: 5d
             total time:
                 value: 30d
         results:
-            rank change: Tollan;Ancient
-            command: 'pushcommand delmember Tollan &p;pushcommand addmember Ancient &p;'
-            message: 'You have been assigned to the Ancient rank.'
-    Ancient:
-        requirements:
-            global time:
-                value: 15d
-            total time:
-                value: 90d
-        results:
-            rank change: Ancient;Ascended
-            command: 'pushcommand delmember Ancient &p;pushcommand addmember Ascended &p;broadcast Congratulate &p on achieving Ascension!'
-            message: 'Congratulations, you have Ascended!'
+            rank change: Player;Veteran
+            command: 'pushcommand delmember Player &p;pushcommand addmember Veteran &p;'
+            message: 'You have been assigned to the Veteran rank as youve been in the StargateMC universe for a long time.'
+            
 # new requirements and results can be added by other plugins that hook into the Autorank API
 # these are the ones that are included in the main plugin:
 # 
