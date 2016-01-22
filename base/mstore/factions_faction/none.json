@@ -1,20 +1,16 @@
 {
-  "name": "Asgard",
-  "description": "Guarded by the Asgard, you do not want to cause trouble here.",
-  "createdAtMillis": 1403098395611,
-  "open": false,
+  "name": "§2Unclaimed Territory",
+  "description": "This territory is not claimed or protected by any faction and can be claimed by anyone.",
+  "createdAtMillis": 1403098395609,
   "flags": {
-    "PERMANENT": true,
-    "PEACEFUL": true,
-    "INFPOWER": true,
-    "POWERLOSS": false,
-    "PVP": false,
-    "MONSTERS": false,
-    "EXPLOSIONS": false,
-    "FIRESPREAD": false
+    "permanent": true,
+    "infpower": true,
+    "offline_explosions": true,
+    "endergrief": true,
+    "monsters": true
   },
   "perms": {
-    "DOOR": [
+    "build": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -24,7 +20,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "BUTTON": [
+    "door": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -34,7 +30,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "LEVER": [
+    "button": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -44,7 +40,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "CONTAINER": [
+    "lever": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -54,10 +50,15 @@
       "OFFICER",
       "ALLY"
     ],
-    "TERRITORY": [
+    "container": [
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
       "LEADER",
       "MEMBER",
-      "OFFICER"
+      "RECRUIT",
+      "OFFICER",
+      "ALLY"
     ]
   }
 }

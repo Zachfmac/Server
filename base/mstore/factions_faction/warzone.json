@@ -2,17 +2,16 @@
   "name": "Battleground",
   "description": "Not the safest place to be",
   "createdAtMillis": 1406137021086,
-  "open": false,
   "flags": {
-    "PERMANENT": true,
-    "PEACEFUL": true,
-    "INFPOWER": true,
-    "MONSTERS": false,
-    "FRIENDLYFIRE": true,
-    "POWERLOSS": false
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "monsters": false,
+    "friendlyfire": true,
+    "powerloss": false
   },
   "perms": {
-    "DOOR": [
+    "door": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -22,7 +21,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "BUTTON": [
+    "button": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -32,7 +31,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "LEVER": [
+    "lever": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -42,7 +41,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "CONTAINER": [
+    "container": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -52,7 +51,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "TERRITORY": [
+    "territory": [
       "MEMBER",
       "OFFICER",
       "LEADER"

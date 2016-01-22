@@ -2,7 +2,7 @@
   "name": "TOLLAN",
   "createdAtMillis": 1449915159644,
   "flags": {
-    "PERMANENT": true,
-    "INFPOWER": true
+    "permanent": true,
+    "infpower": true
   }
 }

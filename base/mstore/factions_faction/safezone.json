@@ -1,17 +1,19 @@
 {
-  "name": "§2Unclaimed Territory",
-  "description": "This territory is not claimed or protected by any faction and can be claimed by anyone.",
-  "createdAtMillis": 1403098395609,
-  "open": false,
+  "name": "Tauri",
+  "description": "Guarded by the Tau'ri, you do not want to cause trouble here.",
+  "createdAtMillis": 1403098395611,
   "flags": {
-    "PERMANENT": true,
-    "INFPOWER": true,
-    "OFFLINE_EXPLOSIONS": true,
-    "ENDERGRIEF": true,
-    "MONSTERS": true
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "powerloss": false,
+    "pvp": false,
+    "monsters": false,
+    "explosions": false,
+    "firespread": false
   },
   "perms": {
-    "BUILD": [
+    "door": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -21,7 +23,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "DOOR": [
+    "button": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -31,7 +33,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "BUTTON": [
+    "lever": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -41,7 +43,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "LEVER": [
+    "container": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -51,15 +53,10 @@
       "OFFICER",
       "ALLY"
     ],
-    "CONTAINER": [
-      "NEUTRAL",
-      "ENEMY",
-      "TRUCE",
+    "territory": [
       "LEADER",
       "MEMBER",
-      "RECRUIT",
-      "OFFICER",
-      "ALLY"
+      "OFFICER"
     ]
   }
 }

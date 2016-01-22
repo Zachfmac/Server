@@ -2,18 +2,17 @@
   "name": "Contested",
   "description": "Not the safest place to be",
   "createdAtMillis": 1406137021086,
-  "open": false,
   "flags": {
-    "PERMANENT": true,
-    "PEACEFUL": true,
-    "INFPOWER": true,
-    "POWERLOSS": false,
-    "FRIENDLYFIRE": true,
-    "MONSTERS": true,
-    "EXPLOSIONS": false
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "powerloss": false,
+    "friendlyfire": true,
+    "monsters": true,
+    "explosions": false
   },
   "perms": {
-    "DOOR": [
+    "door": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -23,7 +22,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "BUTTON": [
+    "button": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -33,7 +32,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "LEVER": [
+    "lever": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -43,7 +42,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "CONTAINER": [
+    "container": [
       "MEMBER",
       "RECRUIT",
       "OFFICER",
@@ -53,7 +52,7 @@
       "ALLY",
       "NEUTRAL"
     ],
-    "TERRITORY": [
+    "territory": [
       "MEMBER",
       "OFFICER",
       "LEADER"

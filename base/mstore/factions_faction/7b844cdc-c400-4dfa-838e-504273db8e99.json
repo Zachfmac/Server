@@ -2,17 +2,16 @@
   "name": "Protected",
   "description": "Area that falls under the Protected planets treaty.",
   "createdAtMillis": 1403098395611,
-  "open": false,
   "flags": {
-    "PERMANENT": true,
-    "PEACEFUL": true,
-    "INFPOWER": true,
-    "POWERLOSS": false,
-    "PVP": false,
-    "EXPLOSIONS": false
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "powerloss": false,
+    "pvp": false,
+    "explosions": false
   },
   "perms": {
-    "DOOR": [
+    "door": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -22,7 +21,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "BUTTON": [
+    "button": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -32,7 +31,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "LEVER": [
+    "lever": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -42,7 +41,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "CONTAINER": [
+    "container": [
       "NEUTRAL",
       "ENEMY",
       "TRUCE",
@@ -52,7 +51,7 @@
       "OFFICER",
       "ALLY"
     ],
-    "TERRITORY": [
+    "territory": [
       "LEADER",
       "MEMBER",
       "OFFICER"
