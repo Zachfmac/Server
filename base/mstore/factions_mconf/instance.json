@@ -4,15 +4,24 @@
   ],
   "worldsClaimingEnabled": {
     "standard": true,
-    "exceptions": []
+    "exceptions": [
+      "Lacun",
+      "Earth"
+      ]
   },
   "worldsPowerLossEnabled": {
     "standard": true,
-    "exceptions": []
+    "exceptions": [
+      "Lacun",
+      "Earth"
+      ]
   },
   "worldsPvpRulesEnabled": {
     "standard": true,
-    "exceptions": []
+    "exceptions": [
+      "Lacun",
+      "Earth"
+      ]
   },
   "playersWhoBypassAllProtection": [],
   "taskPlayerPowerUpdateMinutes": 1.0,
