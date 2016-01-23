@@ -6,21 +6,33 @@
     "standard": true,
     "exceptions": [
       "Lacun",
-      "Earth"
+      "Earth",
+      "Celestis",
+      "Destiny",
+      "Rebirth",
+      "Lantea"
       ]
   },
   "worldsPowerLossEnabled": {
     "standard": true,
     "exceptions": [
       "Lacun",
-      "Earth"
+      "Earth",
+      "Celestis",
+      "Destiny",
+      "Rebirth",
+      "Lantea"
       ]
   },
   "worldsPvpRulesEnabled": {
     "standard": true,
     "exceptions": [
       "Lacun",
-      "Earth"
+      "Earth",
+      "Celestis",
+      "Destiny",
+      "Rebirth",
+      "Lantea"
       ]
   },
   "playersWhoBypassAllProtection": [],
