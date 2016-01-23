@@ -340,9 +340,9 @@ MultiCommand: true
 # A player with achievement.give (or the console) can use the /aach give yourAch1 playerName
 # to give yourAch1 achievement to playerName.
 Commands:
-  yourAch1:
-    Message: You took part in the special event!
-    Name: Special Event Achievement!
+  descend:
+    Message: You have now descended! Welcome to the StargateMC Universe!
+    Name: Descension!
 
 #===========================OOOOOOO===========================#
 # VII-----------------------------------------------------VII #
