@@ -6,11 +6,9 @@ Commands:
   JOB_JOIN:
   - /jobs employ $1 $2
   - '[1]/admin class sub $1 $2'
-  - '[1]/broadcast $1 has become a $2!'
   JOB_LEAVE:
   - /jobs fire $1 $2
   - '[1]/admin class sub $1 Unskilled'
-  - '[1]/broadcast $1 is no longer a $2!'
   JOB_DEMOTE:
   - /jobs demote $1 $2 $3
   - '[1]/broadcast $1 has failed the $2s, causing them to be demoted $3 levels!'
