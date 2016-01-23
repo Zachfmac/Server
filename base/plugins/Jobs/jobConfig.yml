@@ -5,58 +5,6 @@
 # For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
 
 Jobs:
-  GateBuilder:
-    fullname: GateBuilder
-    shortname: GB
-    description: Earns money for the creating stargates and related items.
-    ChatColour: DARK_BLUE
-    chat-display: short
-    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
-    income-progression-equation: baseincome*((1.05)^(joblevel-1))
-    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
-    max-level: 60
-    Craft:
-      '1222':
-        income: 900.0
-        experience: 60.0
-      1222-1:
-        income: 950.0
-        experience: 60.0
-      '1223':
-        income: 1200.0
-        experience: 90.0
-      '1224':
-        income: 1100.0
-        experience: 80.0
-      '5874':
-        income: 800.0
-        experience: 70.0
-      '5875':
-        income: 1000.0
-        experience: 100.0
-      '5876':
-        income: 100.0
-        experience: 10.0
-      '5873':
-        income: 600.0
-        experience: 40.0
-      '5872':
-        income: 600.0
-        experience: 40.0
-  Technician:
-    fullname: Technician
-    shortname: Tech
-    description: Earns money for the crafting of electrical components
-    ChatColour: GREEN
-    chat-display: short
-    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
-    income-progression-equation: baseincome*((1.05)^(joblevel-1))
-    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
-    max-level: 60
-    Craft:
-      '1222':
-        income: 900.0
-        experience: 60.0
   Miner:
     fullname: Miner
     shortname: M
@@ -1065,134 +1013,6 @@ Jobs:
       1761:
         income: -2
         experience: -2
-    custom-kill:
-      Miner:
-        income: 10.0
-        experience: 10.0
-  Builder:
-    fullname: Builder
-    shortname: B
-    ChatColour: WHITE
-    chat-display: short
-    max-level: 60
-    description: Earns money for basic construction tasks.
-    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
-    income-progression-equation: baseincome*((1.05)^(joblevel-1))
-    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
-    Place:
-      COBBLESTONE:
-        income: 0.05
-        experience: 1.0
-      WOOD:
-        income: 0.05
-        experience: 1.5
-      FENCE:
-        income: 0.08
-        experience: 1.5
-      WOOL:
-        income: 0.1
-        experience: 1.5
-      STONE:
-        income: 0.5
-        experience: 2.25
-      GLOWSTONE:
-        income: 0.5
-        experience: 3.0
-      SANDSTONE:
-        income: 0.25
-        experience: 2.0
-      GLASS:
-        income: 0.1
-        experience: 3.0
-      BRICK:
-        income: 0.3
-        experience: 4.0
-      LAPIS_BLOCK:
-        income: 5.0
-        experience: 5.0
-      DOUBLE_STEP:
-        income: 0.1
-        experience: 2.0
-      STEP:
-        income: 0.1
-        experience: 2.0
-      BOOKSHELF:
-        income: 0.75
-        experience: 3.0
-      WOOD_STAIRS:
-        income: 0.1
-        experience: 2.0
-      COBBLESTONE_STAIRS:
-        income: 0.1
-        experience: 2.0
-      MOSSY_COBBLESTONE:
-        income: 1.0
-        experience: 5.0
-      DIAMOND_BLOCK:
-        income: 10.0
-        experience: 5.0
-      GOLD_BLOCK:
-        income: 7.5
-        experience: 5.0
-    Break:
-      COBBLESTONE:
-        income: -0.05
-        experience: -1.0
-      WOOD:
-        income: -0.05
-        experience: -1.5
-      FENCE:
-        income: -0.08
-        experience: -1.5
-      WOOL:
-        income: -0.1
-        experience: -1.5
-      STONE:
-        income: -0.5
-        experience: -2.25
-      GLOWSTONE:
-        income: -0.5
-        experience: -3.0
-      SANDSTONE:
-        income: -0.25
-        experience: -2.0
-      GLASS:
-        income: -0.1
-        experience: -3.0
-      BRICK:
-        income: -0.3
-        experience: -4.0
-      LAPIS_BLOCK:
-        income: -5.0
-        experience: -5.0
-      DOUBLE_STEP:
-        income: -0.1
-        experience: -2.0
-      STEP:
-        income: -0.1
-        experience: -2.0
-      BOOKSHELF:
-        income: -0.75
-        experience: -3.0
-      WOOD_STAIRS:
-        income: -0.1
-        experience: -2.0
-      COBBLESTONE_STAIRS:
-        income: -0.1
-        experience: -2.0
-      MOSSY_COBBLESTONE:
-        income: -1.0
-        experience: -5.0
-      DIAMOND_BLOCK:
-        income: -10.0
-        experience: -5.0
-      GOLD_BLOCK:
-        income: -7.5
-        experience: -5.0
-    custom-kill:
-      Builder:
-        income: 10.0
-        experience: 10.0
   Farmer:
     fullname: Farmer
     shortname: Fa
@@ -1217,17 +1037,13 @@ Jobs:
       SUGAR_CANE_BLOCK:
         income: -0.05
         experience: 1.0
-    custom-kill:
-      Farmer:
-        income: 10.0
-        experience: 10.0
-  Assassin:
-    fullname: Assassin
-    shortname: A
+  Hunter:
+    fullname: Hunter
+    shortname: H
     ChatColour: RED
     chat-display: short
     max-level: 60
-    description: Earns money for hunting and killing everything, including other players.
+    description: Earns money for hunting and killing animals and unfriendly creatures
     leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
     income-progression-equation: baseincome*((1.05)^(joblevel-1))
     experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
@@ -1259,31 +1075,6 @@ Jobs:
       Zombie:
         income: 0.15
         experience: 10.0
-      Player:
-        income: 10.0
-        experience: 15.0
-    custom-kill:
-      Woodcutter:
-        income: 10.0
-        experience: 10.0
-      Miner:
-        income: 10.0
-        experience: 10.0
-      Digger:
-        income: 10.0
-        experience: 10.0
-      Farmer:
-        income: 10.0
-        experience: 10.0
-      Builder:
-        income: 10.0
-        experience: 10.0
-      Hunter:
-        income: 20.0
-        experience: 20.0
-      Technician:
-        income: 20.0
-        experience: 20.0
   Fisherman:
     fullname: Fisherman
     shortname: Fi
@@ -1296,9 +1087,5 @@ Jobs:
     experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
     Fish:
       RAW_FISH:
-        income: 0.25
+        income: 5.0
         experience: 4.0
-    custom-kill:
-      Fisherman:
-        income: 10.0
-        experience: 10.0
