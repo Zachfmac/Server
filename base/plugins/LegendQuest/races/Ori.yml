@@ -1,0 +1,43 @@
+name: Ori
+plural: Ori
+chattag: "O"
+
+description: "Extremely religious race of humans"
+longdescription: "The Ori (pronounced or-eye) were the first evolution of humanity, along with the Ancients. Originally known as the Alterans, they later learned how to ascend and used their knowledge and power as a justification and a means to demand the worship of mortal beings, when they learned such worship increases the power of ascended beings."
+
+size: 1.2
+frequency: 400
+default: false
+
+basespeed: 0.16
+basehealth: 24
+baseMana: 5
+manaPerSecond: 1
+
+statmods:
+  str: 1
+  dex: -1
+  int: 4
+  wis: 0
+  con: 2
+  chr: -2
+
+allowCrafting: true
+allowSmelting: true
+allowBrewing: 
+allowEnchating: true
+allowRepairing: true
+allowTaming: true
+
+groups:
+  - Humanoid
+
+skillPoints: 0
+skillPointsPerLevel: 0.0
+
+xpAdjustKill: 90.0
+xpAdjustSmelt: 110.0
+xpAdjustMine: 120.0
+
+skills:
+
