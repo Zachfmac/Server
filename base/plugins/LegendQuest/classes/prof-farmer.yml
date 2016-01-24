@@ -22,9 +22,8 @@ allowTaming: true
 
 levels:
     0: 
-        allowcraft: hoes,cooking
+        allowcraft: hoes
         allowrepair: hoes
-        allowsmelt: cooking
 
 allowedRaces:
   - ANY
