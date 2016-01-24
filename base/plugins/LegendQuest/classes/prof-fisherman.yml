@@ -1,0 +1,39 @@
+name: Fisherman
+chattag: "\u26CF"
+
+description: Hitting the high seas in style
+longdescription: |
+  Fishermen get improved rewards from fishing in lakes, oceans and rivers
+  Sub-Class only
+
+default: false
+
+mainclassonly: false
+subclassonly: true
+
+statmods:
+  str: 1
+  dex: 0
+  int: 0
+  wis: 0
+  con: 1
+  chr: -1
+
+allowedRaces:
+  - ANY
+
+allowedGroups:
+  - ANY
+
+allowedTools:
+  - all
+
+levels:
+    0:
+
+xpAdjustKill: 0.0
+xpAdjustSmelt: 0.0
+xpAdjustMine: 10.0
+
+skills:
+
