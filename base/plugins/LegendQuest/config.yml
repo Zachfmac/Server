@@ -89,8 +89,8 @@ hideHitMessage: false
 useSizeForCombat: true
 rangedHitBonus: 10
 heightBonus: 2
-hitchance: AVERAGE
-dodgechance: AVERAGE
+hitchance: EASY
+dodgechance: CHALLENGING
 blockchance: TOUGH
 
 #-------------------
