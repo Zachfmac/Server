@@ -49,7 +49,7 @@ Commands:
   - '[1]/tell $1 You will arrive at your destination in 2 seconds.'
   - '[1]/tell $1 You will arrive at your destination in 1 second.'
   - '[1]/mw move $1 $2'
-  - '[1]/tell $1 Youve been beamed down to your destination
+  - '[1]/tell $1 Youve been beamed down to your destination'
   GOTO_WORLD_10MIN: 
   - /tell $1 You will arrive at your destination in 10 minutes.
   - '[60]/tell $1 You will arrive at your destination in 9 minutes.'
