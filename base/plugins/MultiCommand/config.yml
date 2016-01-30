@@ -37,7 +37,12 @@ Commands:
   - '[1]/wb $1-homeworld-$2 set 128 128 spawn'
   - '[1]/dynmap pause all'
   - '[1]/dmap worldset $1-homeworld-$2 enabled:false'
-  - '[1]/dynmap pause none'
+  - '[1]/dynmap pause none
+  GOTO_WORLD_INSTANT: 
+  - /noppes faction $1 BEING_TRANSPORTED add 1000
+  - '[1]/mw move $1 $2'
+  - '[1]/tell $1 Youve been beamed down to your destination'
+  - '[1]/noppes faction $1 BEING_TRANSPORTED subtract 1000'
   GOTO_WORLD_2MIN: 
   - /noppes faction $1 BEING_TRANSPORTED add 1000
   - '[1]/tell $1 You will arrive at your destination in 2 minutes.'
