@@ -39,7 +39,8 @@ Commands:
   - '[1]/dmap worldset $1-homeworld-$2 enabled:false'
   - '[1]/dynmap pause none'
   GOTO_WORLD_2MIN: 
-  - /tell $1 You will arrive at your destination in 2 minutes.
+  - /noppes faction $1 BEING_TRANSPORTED add 1000
+  - '[1]/tell $1 You will arrive at your destination in 2 minutes.'
   - '[29]/tell $1 You will arrive at your destination in 90 seconds.'
   - '[29]/tell $1 You will arrive at your destination in 60 seconds.'
   - '[29]/tell $1 You will arrive at your destination in 30 seconds.'
@@ -50,8 +51,10 @@ Commands:
   - '[1]/tell $1 You will arrive at your destination in 1 second.'
   - '[1]/mw move $1 $2'
   - '[1]/tell $1 Youve been beamed down to your destination'
-  GOTO_WORLD_10MIN: 
-  - /tell $1 You will arrive at your destination in 10 minutes.
+  - '[1]/noppes faction $1 BEING_TRANSPORTED subtract 1000'
+  GOTO_WORLD_10MIN:
+  - /noppes faction $1 BEING_TRANSPORTED add 1000
+  - '[1]/tell $1 You will arrive at your destination in 10 minutes.'
   - '[60]/tell $1 You will arrive at your destination in 9 minutes.'
   - '[60]/tell $1 You will arrive at your destination in 8 minutes.'
   - '[60]/tell $1 You will arrive at your destination in 7 minutes.'
@@ -70,8 +73,10 @@ Commands:
   - '[1]/tell $1 You will arrive at your destination in 1 second.'
   - '[1]/mw move $1 $2'
   - '[1]/tell $1 Youve been beamed down to your destination.'
+  - '[1]/noppes faction $1 BEING_TRANSPORTED subtract 1000'
   GOTO_WORLD_20MIN: 
-  - /tell $1 You will arrive at your destination in 20 minutes
+  - /noppes faction $1 BEING_TRANSPORTED add 1000
+  - '[1]/tell $1 You will arrive at your destination in 20 minutes.'
   - '[300]/tell $1 You will arrive at your destination in 15 minutes.'
   - '[300]/tell $1 You will arrive at your destination in 10 minutes.'
   - '[60]/tell $1 You will arrive at your destination in 9 minutes.'
@@ -92,6 +97,7 @@ Commands:
   - '[1]/tell $1 You will arrive at your destination in 1 second.'
   - '[1]/mw move $1 $2'
   - '[1]/tell $1 Youve been beamed down to your destination.'
+  - '[1]/noppes faction $1 BEING_TRANSPORTED subtract 1000'
   GOTO_HOMEWORLD:
   - /mw load $1-homeworld-$2
   - '[2]/mw move $1 $1-homeworld-$2'
