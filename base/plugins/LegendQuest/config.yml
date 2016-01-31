@@ -141,7 +141,7 @@ chatPrefix: "[{race}|{class}] {current}"
 ## ScoreBoards
 # useScoreBoard : enable scoreboard system.  disable to prevent conflicts with other scoreboard based plugins.
 
-useScoreBoard: true
+useScoreBoard: false
 usePlayerSlot: true
 showPlayerHealth: true
 showListLevels: true
