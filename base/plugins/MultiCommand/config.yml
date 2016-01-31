@@ -28,6 +28,12 @@ Commands:
   - '[1]/jobs transfer $1 $2 $3'
   - '[1]/broadcast $1 has paid dearly to have their experience as a $2 transferred
     to being a $3!'
+  CREATE_FILL_WORLD:
+  - /mw create $1
+  - '[1]/mw load $1'
+  - '[1]/wb $1 set 500 500 spawn'
+  - '[1]/wb $1 fill'
+  - '[1]/wb fill confirm'
   JOB_TRANSFER_AT_LEVEL:
   - '[1]/jobs transfer $1 $2 $3'
   - '[1]/broadcast $1 has been promoted from a $2 to a $3!'
