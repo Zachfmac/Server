@@ -1,6 +1,6 @@
 name: Universe
 nick: U
-format: '{world} {default}'
+format: '[{world}] {default}'
 password: ''
 color: GRAY
 distance: 0
