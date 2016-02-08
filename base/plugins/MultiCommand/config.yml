@@ -49,14 +49,14 @@ Commands:
   - '[1]/rg flag __global__ -w $1-homeworld-$2 block-place -g nonmembers deny'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 invincible -g members allow'
   - '[1]/rg addmember __global__ -w $1-homeworld-$2 $1'
-  - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds -g nonmembers f claim,f autoclaim'
+  - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds f claim,f autoclaim'
   FIX_HOMEWORLD:
   - /rg flag __global__ -w $1-homeworld-$2 block-break -g nonmembers deny
   - '[1]/rg flag __global__ -w $1-homeworld-$2 build -g nonmembers deny'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 block-place -g nonmembers deny'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 invincible -g members allow'
   - '[1]/rg addmember __global__ -w $1-homeworld-$2 $1'
-  - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds -g nonmembers f claim,f autoclaim'
+  - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds f claim,f autoclaim'
   GOTO_WORLD_INSTANT: 
   - /noppes faction $1 BEING_TRANSPORTED add 1000
   - '[1]/mw move $1 $2'
