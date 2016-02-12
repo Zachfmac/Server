@@ -1026,14 +1026,14 @@ Jobs:
     Break:
       CROPS-7:
         income: 5
-        experience: 4.0
+        experience: 1.0
       SUGAR_CANE_BLOCK:
         income: 5
-        experience: 4.0
+        experience: 1.0
     Place:
       CROPS-0:
         income: -0.01
-        experience: 3.0
+        experience: 1.0
       SUGAR_CANE_BLOCK:
         income: -5
         experience: 1.0
@@ -1065,16 +1065,16 @@ Jobs:
         experience: 5.0
       Creeper:
         income: 40
-        experience: 10.0
+        experience: 1.0
       Skeleton:
         income: 30
-        experience: 10.0
+        experience: 1.0
       Spider:
         income: 30
-        experience: 10.0
+        experience: 1.0
       Zombie:
         income: 20
-        experience: 10.0
+        experience: 1.0
   Fisherman:
     fullname: Fisherman
     shortname: Fi
