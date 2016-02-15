@@ -47,7 +47,7 @@ use-player-move-event: true
 use-player-teleports: true
 security:
     deop-everyone-on-join: true
-    block-in-game-op-command: false
+    block-in-game-op-command: true
 host-keys: {}
 summary-on-start: true
 op-permissions: true
