@@ -272,7 +272,7 @@ expirationWarningProfiles:
     "1 day":
       warnPlayer: true
       commands:
-       - "tell %player% You have %timeleft% until your Living Quarters on Atlantis (%region%) expire
+       - "tell %player% You have %timeleft% until your Living Quarters on Atlantis (%region%) expire!"
     "1 hour":
       warnPlayer: true
       commands
