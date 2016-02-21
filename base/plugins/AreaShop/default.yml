@@ -73,7 +73,7 @@ buy:
   ## The default price of a buying region.
   price: 1000
   ## The percentage of the buying price you get back if you sell the region.
-  moneyBack: 100
+  moneyBack: 90
   ## Automatically sell the region after the specified number of minutes between the last login time of the buyer and the current time
   ## -1 mean never, 1440 is one day, 43200 is one month, 525600 is one year.
   inactiveTimeUntilSell: '43200'
