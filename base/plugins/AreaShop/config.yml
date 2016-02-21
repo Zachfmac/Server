@@ -24,7 +24,7 @@ signTags:
 ## The characters displayed before a price, special characters like € can be used.
 moneyCharacter: ''
 ## The characters displayed after a price, special characters like € can be used.
-moneyCharacterAfter: ' Np'
+moneyCharacterAfter: 'Naquadah'
 ## How many numbers behind the dot should be shown (2 will make numbers like '8.55', '9.01').
 fractionalNumbers: 2
 ## Set this to true if you want to hide '.0' for a number like '15.0' ('4.50' will still stay '4.50').
