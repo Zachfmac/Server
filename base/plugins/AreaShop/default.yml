@@ -32,7 +32,7 @@ general:
   ## Useful if you have diffrent economies for different worlds.
   restrictedToWorld: true
   ## Restricts the /as buy and /as rent commands to the region itself (player needs to be inside).
-  restrictedToRegion: true
+  restrictedToRegion: false
   ## The UUID of the landlord, this player will receive all money from rents/buys (but not reselling with '/as resell').
   ## If you use this value be sure that you set 'moneyBack' to 0, because money will not be substracted from the account
   ## of the landlord and the player would get money 'out of thin air'.
@@ -49,7 +49,7 @@ rent:
   ## The default duration of a renting region, you can find all time indicators in config.yml below the RENTING header.
   duration: '1 day'
   ## The percentage of the renting price you get back if you unrent the region (price of time left will be multiplied by this/100).
-  moneyBack: 100
+  moneyBack: 50
   ## Maximum number of extends a player can do (-1 for infinite, 0 for no extending).
   maxExtends: -1
   ## The Maximum time they can have the region rented in advance (use times like '1 day' etc, or 'unlimited' for no limit).
