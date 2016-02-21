@@ -48,8 +48,8 @@ Commands:
   - '[1]/rg flag __global__ -w $1-homeworld-$2 block-break -g members allow'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 build -g members allow'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 block-place -g members allow
-  - '[1]/rg flag __global__ -w $1-homeworld-$2 creeper-explosion false'
-  - '[1]/rg flag __global__ -w $1-homeworld-$2 other-explosion false'
+  - '[1]/rg flag __global__ -w $1-homeworld-$2 creeper-explosion deny'
+  - '[1]/rg flag __global__ -w $1-homeworld-$2 other-explosion deny'
   - '[1]/rg flag __global__ -w $1-homeworld-$2 invincible -g members allow'
   - '[1]/rg addmember __global__ -w $1-homeworld-$2 $1'
   - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds f claim,f autoclaim'
