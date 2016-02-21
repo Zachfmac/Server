@@ -76,4 +76,4 @@ buy:
   moneyBack: 100
   ## Automatically sell the region after the specified number of minutes between the last login time of the buyer and the current time
   ## -1 mean never, 1440 is one day, 43200 is one month, 525600 is one year.
-  inactiveTimeUntilSell: -1
+  inactiveTimeUntilSell: '43200'
