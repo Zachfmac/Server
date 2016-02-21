@@ -45,7 +45,13 @@ limit:
   Vault: []
   MassiveCore: []
   UltimateArena: []
-  StockMarket: []
+  StockMarket:
+   - Lantea
+   - Celestis
+   - Earth
+   - Destiny
+   - MidwayStation
+   - Rebirth
   Herochat: []
   WorldGuard: []
   Factions: []
@@ -66,6 +72,12 @@ limit:
   Citizens: []
   AdvancedAchievements: []
   Dynmap-HeroChat: []
-  GlobalMarket: []
+  GlobalMarket:
+   - Lantea
+   - Celestis
+   - Earth
+   - Destiny
+   - MidwayStation
+   - Rebirth
   BukkitSpeak: []
   Transporter: []
