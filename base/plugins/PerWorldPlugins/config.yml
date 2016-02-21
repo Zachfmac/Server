@@ -12,7 +12,7 @@
 # blocked-msg is the string displayed to a client when a command is blocked
 exempt-login-events: true
 check-for-updates: true
-blocked-msg: '&c[Error] This command cannot be performed in this world.'
+blocked-msg: '&cThe Jaffa Open Market and Stock Markets are only available from the following locations: Earth, Atlantis, Rebirth, Midway, Celestis and Destiny.'
 limit:
   Craftconomy3: []
   Buycraft: []
