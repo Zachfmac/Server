@@ -46,8 +46,8 @@ blacklist:
 automatic_payments: true
 enable_history: true
 announce_new_listings: true
-stall_radius: 0
-mailbox_radius: 3
+stall_radius: 5
+mailbox_radius: 5
 new_mail_notification: true
 new_mail_notification_delay: 10
 enable_metrics: true
@@ -55,5 +55,7 @@ notify_on_update: false
 language_file: en_US.lang
 mailbox:
   Earth,-119,26,-603: true
+  Lantea,-119,179,-1033: true
 stall:
   Earth,-119,26,-605: true
+  Lantea,-281,180,-1033: true
