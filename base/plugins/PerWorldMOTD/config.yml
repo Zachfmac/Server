@@ -26,8 +26,8 @@ usecustomjoinleave: true
 motds:
   Earth:
     motd:
-      - "&3Line1"
-      - "&4Line2&r"
-    sound: "SOUNDNAME"
-    joinmsg: "MESSAGE"
-    leavemsg: "MESSAGE"
+      - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy"
+      - "The stargate address for this world is &cL31RE90P0&r"
+      - "Private spacecraft are &cUNPERMITTED&r to launch from here."
+    joinmsg: "%Player has arrived on this world..."
+    leavemsg: "%Player has left the world... "
