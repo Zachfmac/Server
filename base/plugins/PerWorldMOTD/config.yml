@@ -28,6 +28,6 @@ motds:
     motd:
       - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy"
       - "The stargate address for this world is &cL31RE90P0&r"
-      - "The space in this system is &cCONTROLLED&r. This means that private spacecraft may not launch."
+      - "The space in this system is &cCONTROLLED&r. \nPrivate spacecraft may not launch here."
     joinmsg: "%Player has arrived on this world..."
     leavemsg: "%Player has left the world... "
