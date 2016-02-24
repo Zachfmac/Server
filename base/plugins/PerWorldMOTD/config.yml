@@ -1,0 +1,33 @@
+##PerWorldMOTD v1.5 by CGA1123
+##Configuration File
+#
+#FORMAT:
+#motds:
+#  WORLDNAME:
+#    motd:
+#      - "&3Line1"
+#      - "&4Line2&r"
+#    sound: "SOUNDNAME"
+#    joinmsg: "MESSAGE"
+#    leavemsg: "MESSAGE"
+#  WORLDNAME2:
+#    motd:
+#      - "Line1"
+#    joinmsg: "MESSAGE"
+#    leavemsg: "MESSAGE"
+#
+##Set whether you want to use per world join/leave messages
+#
+usecustomjoinleave: true
+#
+##Sound names can be found at: http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+#Use '&' for coloring the message.
+#Use '%Player' to get player Display Name.
+motds:
+  Earth:
+    motd:
+      - "&3Line1"
+      - "&4Line2&r"
+    sound: "SOUNDNAME"
+    joinmsg: "MESSAGE"
+    leavemsg: "MESSAGE"
