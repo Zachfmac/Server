@@ -1,9 +1,0 @@
-# Space Dimension
-[5874]
-on-use=deny,tell
-message=Stargates can only function when they are within the orbit of a large gravitational force, such as a planet.
-[1345]
-on-use=deny,tell
-message=This item is banned on creative worlds.
-
-
