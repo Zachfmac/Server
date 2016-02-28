@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="WarpDrive warpDrive.xsd">
 
-	<structure group="star" name="red_dwarf" ratio="0.2">
+	<structure group="star" name="red_dwarf" ratio="0.02">
 		<shell name="core" minThickness="40" maxThickness="50"><!-- legacy radius was 42 -->
 			<filler weight="1" block="minecraft:redstone_block" />
 		</shell>
@@ -19,7 +19,7 @@
 		</shell>
 	</structure>
 
-	<structure group="star" name="orange_dwarf" weight="1">
+	<structure group="star" name="orange_dwarf" weight="0.1">
 		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
 			<filler weight="1" block="minecraft:obsidian" />
 		</shell>
@@ -39,7 +39,7 @@
 		</shell>
 	</structure>
 
-	<structure group="star" name="yellow_giant" weight="1">
+	<structure group="star" name="yellow_giant" weight="0.1">
 		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
 			<filler weight="1" block="minecraft:obsidian" />
 		</shell>
@@ -62,7 +62,7 @@
 		</shell>
 	</structure>
 
-	<structure group="star" name="yellow_supergiant" ratio="0.2">
+	<structure group="star" name="yellow_supergiant" ratio="0.02">
 		<shell name="core" minThickness="1" maxThickness="1"><!-- mark the center -->
 			<filler weight="1" block="minecraft:obsidian" />
 		</shell>
@@ -102,7 +102,7 @@
     </structure>
     -->
 
-	<structure group="moon" name="overworld.base" weight="100">
+	<structure group="moon" name="overworld.base" weight="1">
 		<shell name="core" minThickness="4" maxThickness="15">
 			<import group="moon.core" />
 			<filler block="minecraft:bedrock" ratio=".001" />
@@ -123,7 +123,7 @@
 		</shell>
 	</structure>
 
-    <structure group="moon" name="overworld.rare" weight="20">
+    <structure group="moon" name="overworld.rare" weight="2">
         <shell name="core" minThickness="1" maxThickness="10">
             <import group="moon.core" />
             <filler block="minecraft:bedrock" ratio=".001" />
@@ -144,7 +144,7 @@
         </shell>
     </structure>
 
-    <structure group="moon" name="overworld.empty" weight="20">
+    <structure group="moon" name="overworld.empty" weight="1">
         <shell name="core" minThickness="1" maxThickness="1">
             <filler block="minecraft:bedrock" weight="100" />
         </shell>
@@ -169,7 +169,7 @@
         </shell>
     </structure>
 
-    <structure group="moon" name="overworld.ship" weight="10">
+    <structure group="moon" name="overworld.ship" weight="1">
         <schematic group="smallship" />
         <shell name="core" minThickness="5" maxThickness="16">
             <import group="gas" />
@@ -191,7 +191,7 @@
         </shell>
     </structure>
 
-	<structure group="moon" name="overworld.corrupted" weight="20">
+	<structure group="moon" name="overworld.corrupted" weight="1">
 		<shell name="core" minThickness="5" maxThickness="16">
 			<import group="overworld_rare" />
 			<filler block="minecraft:bedrock" ratio=".001" />
@@ -214,7 +214,7 @@
 		</shell>
 	</structure>
 
-    <structure group="moon" name="nether" ratio="0.1">
+    <structure group="moon" name="nether" ratio="0.01">
         <shell name="core" minThickness="1" maxThickness="5">
             <filler block="minecraft:air" weight="1" />
             <filler block="minecraft:bedrock" ratio=".01" />
@@ -308,7 +308,7 @@
 
 
 
-	<structure group="asteroid" name="ClusteredAsteroid" weight="3">
+	<structure group="asteroid" name="ClusteredAsteroid" weight="0.3">
 		<metashell block="minecraft:iron_ore" minCount="6" maxCount="10" minRadius="2" relativeRadius="0.5" />
 		<shell name="mantle" minThickness="3" maxThickness="7">
 			<import group="overworld_common" />
@@ -317,7 +317,7 @@
 		</shell>
 	</structure>
 
-	<structure group="asteroid" name="SphericalAsteroid" weight="10">
+	<structure group="asteroid" name="SphericalAsteroid" weight="0.1">
 		<metashell block="minecraft:iron_ore" minCount="1" maxCount="3" minRadius="2" relativeRadius="0.5" />
 		<shell name="mantle" minThickness="2" maxThickness="6">
 			<import group="overworld_uncommon" />
@@ -326,7 +326,7 @@
 		</shell>
 	</structure>
 
-	<structure group="asteroid" name="diamondGeode" weight="2">
+	<structure group="asteroid" name="diamondGeode" weight="0.2">
 		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
 		<shell name="mantle" minThickness="2" maxThickness="6">
 			<import group="overworld_rare" />
@@ -336,7 +336,7 @@
 	</structure>
 
 
-	<structure group="asteroid" name="mini_overworld" weight="10">
+	<structure group="asteroid" name="mini_overworld" weight="0.1">
 		<metashell block="minecraft:diamond_ore" minCount="1" maxCount="2" minRadius="2" relativeRadius="0.5" />
 		<shell name="mantle" minThickness="2" maxThickness="6">
 			<import group="overworld_allOres" name="stone" />
