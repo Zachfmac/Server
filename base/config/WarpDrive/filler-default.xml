@@ -220,22 +220,22 @@
 
 
     <!-- flow variation for moons -->
-    <fillerSet group="moon.flow" name="lava" weight="5">
+    <fillerSet group="moon.flow" name="lava" weight="0.35">
         <filler block="minecraft:lava" weight="100" />
     </fillerSet>
-    <fillerSet group="moon.flow" name="sand" weight="1">
+    <fillerSet group="moon.flow" name="sand" weight="0.35">
         <filler block="minecraft:sand" weight="100" />
     </fillerSet>
-    <fillerSet group="moon.flow" name="gravel" weight="1">
+    <fillerSet group="moon.flow" name="gravel" weight="0.35">
         <filler block="minecraft:gravel" weight="100" />
     </fillerSet>
-    <fillerSet group="moon.flow" name="ice" weight="3">
+    <fillerSet group="moon.flow" name="ice" weight="0.35">
         <filler block="minecraft:ice" weight="100" />
     </fillerSet>
-    <fillerSet group="moon.flow" name="clay" weight="5">
+    <fillerSet group="moon.flow" name="clay" weight="0.35">
         <filler block="minecraft:clay" weight="100" />
     </fillerSet>
-    <fillerSet group="moon.flow" name="water" weight="5">
+    <fillerSet group="moon.flow" name="water" weight="0.35">
         <filler block="minecraft:water" weight="100" />
     </fillerSet>
     <fillerSet group="moon.flow" name="empty" ratio="0.35">
@@ -245,34 +245,34 @@
 
 
 	<!-- core variation for moons -->
-    <fillerSet group="moon.core" name="lava" weight="6">
+    <fillerSet group="moon.core" name="lava" weight="0.35">
         <filler block="minecraft:lava" weight="100" />
         <filler block="arsmagica2:vinteumOre" metadata="4" ratio=".001" mods="arsmagica2" /><!-- Sunstone -->
     </fillerSet>
-	<fillerSet group="moon.core" name="stone" weight="5">
+	<fillerSet group="moon.core" name="stone" weight="0.35">
 		<import group="overworld_rare" name="stone" />
 	</fillerSet>
-    <fillerSet group="moon.core" name="obsidian" weight="1">
+    <fillerSet group="moon.core" name="obsidian" weight="0.35">
         <import group="overworld_rare" name="obsidian" />
     </fillerSet>
-    <fillerSet group="moon.core" name="water" weight="2">
+    <fillerSet group="moon.core" name="water" weight="0.35">
         <filler block="minecraft:water" weight="100" />
         <filler block="minecraft:ice" ratio="0.05" />
     </fillerSet>
-    <fillerSet group="moon.core" name="ice" weight="1">
+    <fillerSet group="moon.core" name="ice" weight="0.35">
         <filler block="minecraft:packed_ice" weight="100" />
         <filler block="minecraft:lapis_block" ratio="0.02" />
     </fillerSet>
-    <fillerSet group="moon.core" name="diaquartz" weight="1">
+    <fillerSet group="moon.core" name="diaquartz" weight="0.35">
         <filler block="minecraft:quartz_block" metadata="0" weight="100" />
         <filler block="minecraft:quartz_block" metadata="1" weight="100" />
         <filler block="minecraft:diamond_block" ratio="0.01" />
     </fillerSet>
-    <fillerSet group="moon.core" name="iriquartz" weight="1">
+    <fillerSet group="moon.core" name="iriquartz" weight="0.35">
         <filler block="minecraft:quartz_block" metadata="0" weight="100" />
         <filler block="WarpDrive:blockIridium" ratio="0.001" />
     </fillerSet>
-    <fillerSet group="moon.core" name="iroquartz" weight="1">
+    <fillerSet group="moon.core" name="iroquartz" weight="0.35">
         <filler block="minecraft:quartz_block" metadata="2" weight="33" />
         <filler block="minecraft:quartz_block" metadata="3" weight="33" />
         <filler block="minecraft:quartz_block" metadata="4" weight="33" />
