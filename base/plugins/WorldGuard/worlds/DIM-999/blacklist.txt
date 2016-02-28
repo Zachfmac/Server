@@ -1,8 +1,0 @@
-# Hyperspace Dimension
-[5874]
-on-use=deny,tell
-message=It is impossible to have more than one stargate on this world capable of interstellar travel
-[1345]
-on-use=deny,tell
-message=This item is banned on creative worlds.
-
