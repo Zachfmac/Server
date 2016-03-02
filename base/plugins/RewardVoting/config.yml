@@ -1,0 +1,158 @@
+################################
+####RewardVoting Config file####
+################################
+
+#WARNING: You CAN'T just put a new sentence in here and think it will work...
+#If you found any bugs or have ideas, email me: cherwinsupport@hotmail.com
+
+############################
+#Toggle these true or false#
+############################
+
+#Set Metrics to 'false' if you don't want to send information about the usage of the plugin to http://mcstats.org/
+Metrics: true
+
+#Set Update-check to 'false' if you don't want the plugin to check for updates.
+update-check: true
+
+vault: true
+lucky-vote: true
+
+##############
+##Lucky-Vote##
+##############
+
+lucky-item-message: "&0[&6&lRewardVoting&r&0]&r You were extremely lucky and found a ZPM!"
+lucky-money-message: "&0[&6&lRewardVoting&r&0]&r You were extremely lucky and got 10,000 Naquadah!"
+
+lucky-item-id: 7068
+lucky-item-amount: 1
+
+#make sure vault is enabled!
+lucky-money-amount:10000
+
+###########
+##Rewards##
+###########
+
+#A specific item!
+itemid1: 264
+itemamount1: 1
+
+#A specific item!
+itemid2: 257
+itemamount2: 1
+
+#A specific item!
+itemid3: 6808
+itemamount3: 1
+
+#A specific item!
+itemid4: 6860
+itemamount4: 1
+
+#A specific item!
+itemid5: 4303:1
+itemamount5: 1
+
+#A specific item!
+itemid6: 38
+itemamount6: 1
+
+#A specific potion!
+#Replace the 0 at potion1/potion2 with 373 to enable the specific potion!
+
+potion1: 0
+potionamount1: 0
+potionmeta1: 0
+
+potion2: 0
+potionamount2: 0
+potionmeta2: 0
+
+#Amount of exp levels a player get for voting!
+explevel: 1
+
+#Amount of money a player gets for voting!
+#Economy plugins that are supported are listed on the Vault bukkit page!
+money: 1000
+
+#A specific command! (Example: /msg %s thanks for voting!)
+command: "broadcast Thank %s for voting for StargateMC!"
+
+##############
+##Vote sites##
+##############
+
+#Add colors to the vote sites!
+
+votesites: 
+- "&bhttp://minecraftservers.org"
+
+############
+##Messages##
+############
+
+#Add &[colorcode] to the begin of the message to change the code! Only works on the messages below...
+
+#Name displayed when you type '/vote'!
+votename: "&6RewardVoting"
+
+#Broadcast message that is displayed when the server hits 100, 200, 300, 400 or more votes! ('%s' = amount of votes)
+milestonemessage: "The server just passed %s votes!"
+
+#Message displayed to someone who logs into the server!
+joinmessage: "&0[&6&lRewardVoting&r&0]&r Don't forget to vote for the server! /vote"
+
+#Message that the server broadcasts when someone votes. It is {playername} [Broadcast Message]
+#The first '%s' = The name of the voter | The second '%s' = The service name (website the player voted on)
+broadcastmessage: "&b%s voted for us on %s and got his &4rewards!"
+
+#The message displayed when someone voted when he is offline
+offlinemessage: "&b%s voted for us, but unfortunately he was offline!"
+
+#Message shown when a player does /rewardvoting freediamonds
+freediamonds: "&4Did you really think you get free diamonds?!"
+
+
+###############################                                         
+####RewardVoting#changelog!####                               
+###############################
+#
+# 6.0 (Large update)       
+#
+# + You can give color to the vote sites!
+# + You can give color to the votename!
+# + Improved /vote (No empty spaces!)
+# + Vote queue! 
+# + Added mcstats
+# + Milestone!
+# + Change the milestone with '/rv setmilestone [amount]' (OP ONLY)
+# + Added player votes!
+# + Lucky votes
+# + Added some /rv arguments (milestone, setmilestone, totalvotes, votes)
+# * Fixed config glitch (When someone votes and config is open)
+# * Milestones, totalvotes, playervotes are now in 'voters.yml'
+#
+# 6.0.1
+# 
+# * Bug fixing!
+# * Fixed /rvreload
+# * Removed queue due to too many bugs.
+# * Hint: Queue will be back in version 6.1 ;) (Bugfree)
+# * Now 1.7.10 support!
+#
+# 6.0.2
+#
+# * No vote rewards bug fixed!
+#
+# 6.0.3
+#
+# * Fixed no exp and money on several server-types!
+#
+# Notes:
+# + = Added, - = Removed, * = Fixed/Changed, ! = Planned                    
+#
+###############################                                                
+#######End of changelog########
+###############################

@@ -18,7 +18,7 @@
 #
 ##Set whether you want to use per world join/leave messages
 #
-usecustomjoinleave: false
+usecustomjoinleave: true
 #
 ##Sound names can be found at: http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
 #Use '&' for coloring the message.
@@ -29,12 +29,18 @@ motds:
       - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy!"
       - "The space in this system is &cSECURED&r."
       - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: "&8Announcement&r: %Player has arrived on Earth..."
+    leavemsg: "&8Announcement&r: %Player has left Earth... "
   Lantea:
     motd:
       - "Welcome to &3Lantea&r in the &3Pegasus&r Galaxy!"
       - "The space in this system is &cSECURED&r."
       - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: "&8Announcement&r: %Player has arrived on Atlantis..."
+    leavemsg: "&8Announcement&r: %Player has left Atlantis... "
   P2Y-321:
     motd:
       - "Welcome to &3P2Y-321&r in the &3MilkyWay&r Galaxy!"
       - "The space in this system is &cUNSECURED&r."
+    joinmsg: "&8Announcement&r: %Player has arrived on this world..."
+    leavemsg: "&8Announcement&r: %Player has left this world... "
