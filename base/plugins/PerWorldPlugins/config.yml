@@ -64,9 +64,7 @@ limit:
   EssentialsSpawn: []
   boosCooldowns: []
   Inquisitor: []
-  LegendQuest:
-   - Alkesh_Arena
-   - Hatak_Arena
+  LegendQuest: []
   MCBans: []
   HeroBounty: []
   Autorank: []
