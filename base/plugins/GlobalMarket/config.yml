@@ -54,8 +54,8 @@ enable_metrics: true
 notify_on_update: false
 language_file: en_US.lang
 mailbox:
-  Earth,-119,26,-603: true
   Lantea,-119,179,-1033: true
+  Earth,-134,24,-615: true
 stall:
-  Earth,-119,26,-605: true
   Lantea,-281,180,-1033: true
+  Earth,-132,24,-615: true
