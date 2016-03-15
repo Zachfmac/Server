@@ -10,31 +10,6 @@ local function alarmSet(set)
   rs.setOutput("left", set)
   return 
 end
-  
-function drawPowerBar() -- checks power levels and writes power bar to monitor
-  x,y = mon.getSize()
-  engPercent = (sg.energyAvailable() / (maxEng +1)) * 100 -- returns percent
-  for i = y, (y - y / 100 * engPercent), -1 do
-    mon.setCursorPos(x-2,i)
-    if i > y/4*3 then 
-      mon.setBackgroundColor(colors.red)
-	  mon.setTextColor(colors.red)
-    elseif i > y/2 then
-      mon.setBackgroundColor(colors.orange)
-	  mon.setTextColor(colors.orange)
-    elseif i > y/4 then
-      mon.setBackgroundColor(colors.green)
-	  mon.setTextColor(colors.green)
-    else
-      mon.setBackgroundColor(colors.lime)
-	  mon.setTextColor(colors.lime)
-    end
-    mon.write("  ")
-  end
-  mon.setBackgroundColor(colors.black)
-  mon.setCursorPos(x-9,y)
-  mon.write(math.floor(sg.energyAvailable() / 1000).."k SU ")
-end
 
 function drawChevrons() --draws cheyvrons on the screen
   x,y = mon.getSize()
@@ -338,7 +313,6 @@ function drawHome() -- draws the home screen
   mon.setTextColor(colors.gray)
   mon.setBackgroundColor(colors.black)
   mon.write("Dialing Computer")
-  drawPowerBar()
   drawChevrons()
   status, int = sg.stargateState()
   drawSgStatus(tostring(status))
@@ -694,7 +668,6 @@ while true do
 	end	  
   elseif event == "sgStargateStateChange" or "sgChevronEngaged" then
     drawDial()
-    drawPowerBar()
     drawTerm()
 	status, int = sg.stargateState()
     drawSgStatus(tostring(status))
