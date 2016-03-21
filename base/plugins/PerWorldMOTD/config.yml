@@ -27,20 +27,48 @@ motds:
   Earth:
     motd:
       - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy!"
-      - "The space in this system is &cSECURED&r."
       - "The Jaffa Open Market and Stock Markets both operate from this world."
-    joinmsg: "&8Announcement&r: %Player has arrived on Earth..."
-    leavemsg: "&8Announcement&r: %Player has left Earth... "
+      - "The Tauri vessel, Daedalus, departs here to Othala and Pegasus on a regular basis."
   Lantea:
     motd:
       - "Welcome to &3Lantea&r in the &3Pegasus&r Galaxy!"
-      - "The space in this system is &cSECURED&r."
       - "The Jaffa Open Market and Stock Markets both operate from this world."
-    joinmsg: "&8Announcement&r: %Player has arrived on Atlantis..."
-    leavemsg: "&8Announcement&r: %Player has left Atlantis... "
-  P2Y-321:
+      - "The Lantean vessel, Tria, departs here to Othala and MilkyWay on a regular basis."
+  Rebirth:
     motd:
-      - "Welcome to &3P2Y-321&r in the &3MilkyWay&r Galaxy!"
-      - "The space in this system is &cUNSECURED&r."
-    joinmsg: "&8Announcement&r: %Player has arrived on this world..."
-    leavemsg: "&8Announcement&r: %Player has left this world... "
+      - "Welcome to &3Rebirth&r in the &3Othala&r Galaxy!"
+      - "The Jaffa Open Market and Stock Markets both operate from this vessel."
+      - "The Asgard vessel, Olympus, departs here to Midway on a regular basis."
+  Celestis:
+    motd:
+      - "Welcome to &3Celestis&r in the &3Ori&r Galaxy!"
+      - "The Jaffa Open Market and Stock Markets both operate from this world."
+  Destiny:
+    motd:
+      - "Welcome to &3Destiny&r in the &3Destiny&r Galaxy!"
+      - "The Jaffa Open Market and Stock Markets both operate from this vessel."
+  DIM-331:
+    motd:
+      - "Welcome to &3DIM-331&r in the &3Destiny&r Galaxy!"
+      - "Galacticraft rockets can function here."
+  DIM-332:
+    motd:
+      - "Welcome to &3DIM-332&r in the &3Destiny&r Galaxy!"
+      - "Galacticraft rockets can function here."
+  DIM-393:
+    motd:
+      - "Welcome to &3DIM-393&r in the &3Destiny&r Galaxy!"
+      - "Galacticraft rockets can function here."
+  DIM-411:
+    motd:
+      - "Welcome to &3DIM-411&r in the &3Destiny&r Galaxy!"
+      - "Galacticraft rockets can function here."
+  M4X-337:
+    motd:
+      - "Welcome to &3M4X-337&r in the &3Pegasus&r Galaxy!"
+      - "There is a crashed wraith hive on this planet, with plenty of wraith to kill."
+  MidwayStation:
+    motd:
+      - "Welcome to &3Midway&r in the &3Galactic Void&r!"
+      - "The Jaffa Open Market and Stock Markets both operate from this station."
+      - "The Asgard vessel, Olympus, departs here to Othala on a regular basis."
