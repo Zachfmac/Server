@@ -6,6 +6,9 @@
 - We may advise you to update if you are experiencing an issue that has been fixed in the latest "recommended" version
 - StargateMC staff will not provide any guarrantees of support for those running additional mods in our pack. If you would like to see a mod added, please request it using this form.
 
+**Character Name In-game**
+
+*As Github usernames can differ from Minecraft ones, please include your current player name*
 
 **Description**
 
