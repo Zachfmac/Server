@@ -1,5 +1,3 @@
-#Issue Template for Suggestions and Bug reports on StargateMC.com#
-
 **Important Notes**
 
 - We primarily support the multiplayer server and may not be able to prioritise/fix issues presented in singleplayer
