@@ -18,7 +18,7 @@
 #
 ##Set whether you want to use per world join/leave messages
 #
-usecustomjoinleave: true
+usecustomjoinleave: false
 #
 ##Sound names can be found at: http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
 #Use '&' for coloring the message.
@@ -29,46 +29,69 @@ motds:
       - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy!"
       - "The Jaffa Open Market and Stock Markets both operate from this world."
       - "The Tauri vessel, Daedalus, departs here to Othala and Pegasus on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
   Lantea:
     motd:
       - "Welcome to &3Lantea&r in the &3Pegasus&r Galaxy!"
       - "The Jaffa Open Market and Stock Markets both operate from this world."
       - "The Lantean vessel, Tria, departs here to Othala and MilkyWay on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
   Rebirth:
     motd:
       - "Welcome to &3Rebirth&r in the &3Othala&r Galaxy!"
       - "The Jaffa Open Market and Stock Markets both operate from this vessel."
       - "The Asgard vessel, Olympus, departs here to Midway on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
   Celestis:
     motd:
       - "Welcome to &3Celestis&r in the &3Ori&r Galaxy!"
       - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: ""
+    leavemsg: ""
   Destiny:
     motd:
       - "Welcome to &3Destiny&r in the &3Destiny&r Galaxy!"
       - "The Jaffa Open Market and Stock Markets both operate from this vessel."
+    joinmsg: ""
+    leavemsg: ""
   DIM-331:
     motd:
       - "Welcome to &3DIM-331&r in the &3Destiny&r Galaxy!"
       - "Galacticraft rockets can function here."
+    joinmsg: ""
+    leavemsg: ""
+    
   DIM-332:
     motd:
       - "Welcome to &3DIM-332&r in the &3Destiny&r Galaxy!"
       - "Galacticraft rockets can function here."
+    joinmsg: ""
+    leavemsg: ""
   DIM-393:
     motd:
       - "Welcome to &3DIM-393&r in the &3Destiny&r Galaxy!"
-      - "Galacticraft rockets can function here."
+      - "Galacticraft rockets can function here
+    joinmsg: ""
+    leavemsg: ""
   DIM-411:
     motd:
       - "Welcome to &3DIM-411&r in the &3Destiny&r Galaxy!"
-      - "Galacticraft rockets can function here."
+      - "Galacticraft rockets can function here"
+    joinmsg: ""
+    leavemsg: ""
   M4X-337:
     motd:
       - "Welcome to &3M4X-337&r in the &3Pegasus&r Galaxy!"
       - "There is a crashed wraith hive on this planet, with plenty of wraith to kill."
+    joinmsg: ""
+    leavemsg: ""
   MidwayStation:
     motd:
       - "Welcome to &3Midway&r in the &3Galactic Void&r!"
       - "The Jaffa Open Market and Stock Markets both operate from this station."
       - "The Asgard vessel, Olympus, departs here to Othala on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
