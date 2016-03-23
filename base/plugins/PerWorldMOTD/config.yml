@@ -73,7 +73,7 @@ motds:
   DIM-393:
     motd:
       - "Welcome to &3DIM-393&r in the &3Destiny&r Galaxy!"
-      - "Galacticraft rockets can function here
+      - "Galacticraft rockets can function here"
     joinmsg: ""
     leavemsg: ""
   DIM-411:
