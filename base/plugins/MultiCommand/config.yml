@@ -64,10 +64,8 @@ Commands:
   - '[1]/rg addmember __global__ -w $1-homeworld-$2 $1'
   - '[1]/region flag __global__ -w $1-homeworld-$2 blocked-cmds f claim,f autoclaim'
   GOTO_WORLD_INSTANT: 
-  - /noppes faction $1 BEING_TRANSPORTED add 1000
-  - '[1]/mw move $1 $2'
+  - /mw move $1 $2
   - '[1]/tell $1 Youve been beamed to your destination'
-  - '[1]/noppes faction $1 BEING_TRANSPORTED reset'
   GOTO_WORLD_2MIN: 
   - /noppes faction $1 BEING_TRANSPORTED add 1000
   - '[1]/tell $1 You will arrive at your destination in 2 minutes.'
