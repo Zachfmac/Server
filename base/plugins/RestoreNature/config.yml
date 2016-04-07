@@ -1,7 +1,6 @@
 version: 1.0.0
 MAX_SECONDS_UNTOUCHED: 30
-CHECK_PERIOD_IN_SECONDS: 30
+CHECK_PERIOD_IN_SECONDS: 1
 WORLDS_INFO: '{"maintained_worlds":[{"world_name": "M4X-337","check_radius":
-  "2500","nature_factions": [{"faction_name": "§2Unclaimed Territory"}]},{"world_name":
-  "my_wrecked_nether","check_radius": "200","nature_factions": []}]}'
+  "500","nature_factions": [{"faction_name": "§2Unclaimed Territory"}]}}'
 RESTORING_PERIOD_PER_CHUNK_IN_SECONDS: 2
