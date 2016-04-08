@@ -15,20 +15,9 @@ general:
       # Define the name of the worlds you wish to DO NOT wish to regenerate. 
       # Optionally, you can set isBlacklist to false and this becomes a whitelist.
       definedWorlds:
-      - Daedalus
+      - "M4X-337"
       - Earth
-      - Celestis
-      - Lantea
-      - Tollana
-      - Destiny
-      - Tria
-      - Alkesh_Arena
-      - NPC_STORAGE
-      - SHIP_STORAGE
-      - Rebirth
-      - MidwayStation
-      - Olympus
-      isBlacklist: true
+      isBlacklist: false
 integration:
   regeneration:
     factions:
