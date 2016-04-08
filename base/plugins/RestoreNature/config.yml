@@ -1,6 +1,9 @@
 version: 1.0.0
 MAX_SECONDS_UNTOUCHED: 300
 CHECK_PERIOD_IN_SECONDS: 300
+BLOCK_EVENT_EFFECTING_RADIUS: 1
+USING_FEATURE_FACTION: true
+CHECK_RADIUS_PER_PERIOD: 1
 WORLDS_INFO: '{"maintained_worlds":[{"world_name": "M4X-337","check_radius":
   "157","nature_factions": [{"faction_name": "§2Unclaimed Territory"}]}]}'
 RESTORING_PERIOD_PER_CHUNK_IN_SECONDS: 2
