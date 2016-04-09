@@ -1,14 +1,18 @@
-## Regenerator, a Perpetual world plugin that integrates with Multiverse, Multiworld and Factions.
----
+#####################################################################################################
+## Regenerator, a Perpetual world plugin that integrates with Multiverse, Multiworld and Factions. ##
+#####################################################################################################
+
 # Version of Regenerator. Do not change this... let the plugin do it for you.
-version: 1.1.0
+version: 1.2.0
 general:
   regeneration:
     # Is regeneration enabled? Setting this to false will globally disable the plugin from working.
     enabled: true
-    # Interval, in seconds, between chunk regeneration events.
-    interval: 5
     worlds:
+      # Interval between regeneration tasks for each world. (I.e a world will stop regeneration for this many seconds, after it competes a round)
+      interval: 86400
+      # Offset for World regeneration tasks, in seconds, this ensures that no chunks will regenerate at the same time.
+      offset: 120
     # Shall players be teleported to the spawn of the world they are on if the chunk has been regenerated?
     # If you do not leave this as true, you might find players log back in and are stuck in a wall.
       teleportOfflineInChunkToWorldSpawn: true
@@ -16,8 +20,10 @@ general:
       # Optionally, you can set isBlacklist to false and this becomes a whitelist.
       definedWorlds:
       - "M4X-337"
-      - Earth
       isBlacklist: false
+      # Interval between regeneration tasks for each chunk of the a world. (I.e Chunks are regenerated one at a time, but will wait this many seconds between)
+      chunks:
+          interval: 15
 integration:
   regeneration:
     factions:
