@@ -1,7 +1,7 @@
 ## Regenerator, a Perpetual world plugin that integrates with Multiverse, Multiworld and Factions.
 ---
 # Version of Regenerator. Do not change this... let the plugin do it for you.
-version: 1.0.0
+version: 1.1.0
 general:
   regeneration:
     # Is regeneration enabled? Setting this to false will globally disable the plugin from working.
