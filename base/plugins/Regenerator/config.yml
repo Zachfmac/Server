@@ -3,16 +3,16 @@
 #####################################################################################################
 
 # Version of Regenerator. Do not change this... let the plugin do it for you.
-version: 1.2.0
+version: 1.3.0
 general:
   regeneration:
     # Is regeneration enabled? Setting this to false will globally disable the plugin from working.
     enabled: true
     worlds:
       # Interval between regeneration tasks for each world. (I.e a world will stop regeneration for this many seconds, after it competes a round)
-      interval: 86400
+      interval: 300
       # Offset for World regeneration tasks, in seconds, this ensures that no chunks will regenerate at the same time.
-      offset: 120
+      offset: 30
     # Shall players be teleported to the spawn of the world they are on if the chunk has been regenerated?
     # If you do not leave this as true, you might find players log back in and are stuck in a wall.
       teleportOfflineInChunkToWorldSpawn: true
@@ -23,7 +23,7 @@ general:
       isBlacklist: false
       # Interval between regeneration tasks for each chunk of the a world. (I.e Chunks are regenerated one at a time, but will wait this many seconds between)
       chunks:
-          interval: 15
+          interval: 10
 integration:
   regeneration:
     factions:
