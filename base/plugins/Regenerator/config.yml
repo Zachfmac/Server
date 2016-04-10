@@ -3,27 +3,23 @@
 #####################################################################################################
 
 # Version of Regenerator. Do not change this... let the plugin do it for you.
-version: 1.4.0
+version: 1.5.0
 general:
   regeneration:
     # Is regeneration enabled? Setting this to false will globally disable the plugin from working.
     enabled: true
     worlds:
-      # Interval between regeneration tasks for each world. (I.e a world will stop regeneration for this many seconds, after it competes a round)
-      interval: 300
-      # Offset for World regeneration tasks, in seconds, this ensures that no chunks will regenerate at the same time.
-      offset: 30
     # Shall players be teleported to the spawn of the world they are on if the chunk has been regenerated?
     # If you do not leave this as true, you might find players log back in and are stuck in a wall.
       teleportOfflineInChunkToWorldSpawn: true
       # Define the name of the worlds you wish to DO NOT wish to regenerate. 
       # Optionally, you can set isBlacklist to false and this becomes a whitelist.
       definedWorlds:
-      - "M4X-337"
+      - "P2Y-321"
       isBlacklist: false
-      # Interval between regeneration tasks for each chunk of the a world. (I.e Chunks are regenerated one at a time, but will wait this many seconds between)
+      # Minimum time (in seconds) between chunks regenerating. This is used for both manual and automatic regeneration commands.
       chunks:
-          interval: 60
+          interval: 120
 integration:
   regeneration:
     factions:
@@ -32,3 +28,19 @@ integration:
       # Define the faction names you wish to regenerate territory for here.
       definedFactions:
       - WILDERNESS
+      # Roles who can use the /regenerator chunk command for their own faction.
+      # Valid options include: LEADER, OFFICER, MEMBER, RECRUIT, NEUTRAL, TRUCE, ENEMY
+      # NOTE: All Relations to the LEFT of the one you selecet above, will automatically be valid also.
+      # This does not work in factions defined above. This means you should only put Safezone, Warzone, Wilderness style factions in the above list.
+      # If you do not wish to allow for this feature to work, do not assign any players the "regenerator.regen" permission node (and set the below to LEADER for safety).
+      minimumRelToRegenerateChunk: OFFICER
+      
+      # Permission nodes
+      # Command: /regenerator regen
+      # Permission Node: regenerator.regen
+      # Override Node: regenerator.regen.force (or OP) - this bypasses factions protections.
+      # Command: /regenerator reload
+      # Permission Node: regenerator.reload (or OP)
+      
+
+      
