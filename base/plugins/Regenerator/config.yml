@@ -3,7 +3,7 @@
 #####################################################################################################
 
 # Version of Regenerator. Do not change this... let the plugin do it for you.
-version: 1.5.1
+version: 1.5.2
 general:
   regeneration:
     # Is regeneration enabled? Setting this to false will globally disable the plugin from working.
