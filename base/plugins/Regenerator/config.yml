@@ -23,7 +23,7 @@ general:
       isBlacklist: false
       # Interval between regeneration tasks for each chunk of the a world. (I.e Chunks are regenerated one at a time, but will wait this many seconds between)
       chunks:
-          interval: 10
+          interval: 60
 integration:
   regeneration:
     factions:
