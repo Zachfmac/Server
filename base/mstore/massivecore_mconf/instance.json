@@ -18,7 +18,7 @@
   "aliasesOuterMassiveCoreCmdurl": [
     "cmdurl"
   ],
-  "usingRecipientChatEvent": true,
+  "usingRecipientChatEvent": false,
   "permissionDeniedFormats": {
     "some.awesome.permission.node": "<b>You must be awesome to %s<b>.",
     "some.derp.permission.node.1": "derp",
