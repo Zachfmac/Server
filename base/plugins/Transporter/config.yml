@@ -1,7 +1,0 @@
-worlds: []
-servers: []
-configVersion: 2
-global: null
-pins: {}
-network:
-    bannedAddresses: []
