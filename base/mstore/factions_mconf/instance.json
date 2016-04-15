@@ -155,7 +155,7 @@
   },
   "chatSetFormat": true,
   "chatSetFormatAt": "LOWEST",
-  "chatSetFormatTo": "<{factions_relcolor}§l{factions_roleprefix}§r{factions_relcolor}{factions_name|rp}§f%1$s> %2$s",
+  "chatSetFormatTo": "<§l{factions_roleprefix}§r{factions_name|rp}§f%1$s> %2$s",
   "chatParseTags": true,
   "chatParseTagsAt": "LOW",
   "colorMember": "GREEN",
