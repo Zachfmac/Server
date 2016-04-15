@@ -1,9 +1,9 @@
 # How many stocks is the player allowed in total?
 max-total-stocks-per-player: 250
 max-total-stocks-per-player-per-stock: 50
-random-event-frequency: 2
-dividend-frequency: 5
-pay-offline-players: false
+random-event-frequency: 15
+dividend-frequency: 60
+pay-offline-players: true
 broadcast-events: true
 debug-mode: false
 broadcast-payouts: true
