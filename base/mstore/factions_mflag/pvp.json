@@ -1,5 +1,5 @@
 {
-  "priority": 4000,
+  "priority": 5000,
   "name": "pvp",
   "desc": "Can you PVP in territory?",
   "descYes": "You can PVP in this territory.",

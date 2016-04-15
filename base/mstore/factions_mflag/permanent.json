@@ -1,5 +1,5 @@
 {
-  "priority": 10000,
+  "priority": 12000,
   "name": "permanent",
   "desc": "Is the faction immune to deletion?",
   "descYes": "The faction can NOT be deleted.",

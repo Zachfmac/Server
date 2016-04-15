@@ -1,5 +1,5 @@
 {
-  "priority": 12000,
+  "priority": 14000,
   "name": "infpower",
   "desc": "Does the faction have infinite power?",
   "descYes": "The faction has infinite power.",

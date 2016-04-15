@@ -1,5 +1,5 @@
 {
-  "priority": 8000,
+  "priority": 9000,
   "name": "firespread",
   "desc": "Can fire spread in territory?",
   "descYes": "Fire can spread in this territory.",
