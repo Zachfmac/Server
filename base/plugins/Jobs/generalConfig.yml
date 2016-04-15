@@ -48,7 +48,7 @@ enable-pay-creative: false
 # Adds the Jobs xp recieved to the player's Minecraft XP bar
 add-xp-player: true
 # Modifys chat to add chat titles.  If you're using a chat manager, you may add the tag {jobs} to your chat format and disable this.
-modify-chat: true
+modify-chat: false
 # Changes how often, in seconds, players are paid out.  Default is 5 seconds.
 # Setting this too low may cause tick lag.  Increase this to improve economy performance (at the cost of delays in payment)
 economy-batch-delay: 5
