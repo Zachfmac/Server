@@ -6,7 +6,7 @@
   "upkeepPerChunk": 0.1,
   "upkeepFailUnclaimall": false,
   "upkeepFailDisband": false,
-  "periodMillis": 3600,
+  "periodMillis": 3600000,
   "offsetMillis": 0,
   "playerInactiveMillis": 259200000,
   "lastMillis": 0,
