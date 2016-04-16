@@ -1,4 +1,4 @@
-interval: 86400
+interval: 900
 autoregen: true
 manualregen: false
 lastAction: 0
