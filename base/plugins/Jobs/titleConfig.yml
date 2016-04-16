@@ -7,6 +7,7 @@
 # It is recommended but not required to have a title at level 0.
 # 
 # Titles are completely optional.
+# Posible variable are {level} to add current jobs level.
 # 
 # Titles:
 #   Apprentice:
@@ -26,7 +27,7 @@
 #     levelReq: 60
 #   Master:
 #     Name: Master
-#     ShortName: M
+#     ShortName: '{level} M'
 #     ChatColour: BLACK
 #     levelReq: 90
 

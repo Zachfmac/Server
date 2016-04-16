@@ -1,0 +1,393 @@
+# Configuration -> worlds
+DIM-331:
+  sun: true
+  rain: true
+  storm: true
+Alkesh_Arena:
+  sun: true
+  rain: true
+  storm: true
+C3J-512:
+  sun: true
+  rain: true
+  storm: true
+C6A-343:
+  sun: true
+  rain: true
+  storm: true
+C7J-211:
+  sun: true
+  rain: true
+  storm: true
+C8L-390:
+  sun: true
+  rain: true
+  storm: true
+Celestis:
+  sun: true
+  rain: true
+  storm: true
+Clementia:
+  sun: true
+  rain: true
+  storm: true
+D1X-209:
+  sun: true
+  rain: true
+  storm: true
+D3L-353:
+  sun: true
+  rain: true
+  storm: true
+D7J-700:
+  sun: true
+  rain: true
+  storm: true
+D9K-411:
+  sun: true
+  rain: true
+  storm: true
+DIM51:
+  sun: true
+  rain: true
+  storm: true
+Daedalus:
+  sun: true
+  rain: true
+  storm: true
+Destiny:
+  sun: true
+  rain: true
+  storm: true
+Earth:
+  sun: true
+  rain: true
+  storm: true
+KS7-535:
+  sun: true
+  rain: true
+  storm: true
+Lacun:
+  sun: true
+  rain: true
+  storm: true
+Lantea:
+  sun: true
+  rain: true
+  storm: true
+M4X-179:
+  sun: true
+  rain: true
+  storm: true
+M4X-337:
+  sun: true
+  rain: true
+  storm: true
+M9R-373:
+  sun: false
+  rain: false
+  storm: true
+MidwayStation:
+  sun: true
+  rain: true
+  storm: true
+NPC_STORAGE:
+  sun: true
+  rain: true
+  storm: true
+O1K-547:
+  sun: true
+  rain: true
+  storm: true
+O3L-311:
+  sun: true
+  rain: true
+  storm: true
+O6K-349:
+  sun: true
+  rain: true
+  storm: true
+O7K-232:
+  sun: true
+  rain: true
+  storm: true
+Olympus:
+  sun: true
+  rain: true
+  storm: true
+P2A-347:
+  sun: true
+  rain: true
+  storm: true
+P2Y-321:
+  sun: true
+  rain: true
+  storm: true
+P4X-555:
+  sun: true
+  rain: true
+  storm: true
+P5J-612:
+  sun: true
+  rain: true
+  storm: true
+P7K-172:
+  sun: true
+  rain: true
+  storm: true
+Rebirth:
+  sun: true
+  rain: true
+  storm: true
+Tollana:
+  sun: true
+  rain: true
+  storm: true
+Tria:
+  sun: true
+  rain: true
+  storm: true
+AZInuYasha-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Ashtarroth-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+Awesomeface69-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+BilboSwagz-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Bysokar-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+Captain_Nikolaus-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+ColonelSheppard-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+DEVILMEDIC-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+DarkHeir-homeworld-Othala:
+  sun: true
+  rain: true
+  storm: true
+Darkstuffs-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Diamand_Dragon-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Diamond_Hammer-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+DnvnQuinn-homeworld-Othala:
+  sun: true
+  rain: true
+  storm: true
+EZGK_max-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+Estilla-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Falconlover22V2-homeworld-Ori:
+  sun: true
+  rain: true
+  storm: true
+GermanLetsPaddel-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Gipsonek-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+GodTheDarkLord-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+GollumIsAGamer-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Joshowott-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+KingBarge-homeworld-Othala:
+  sun: true
+  rain: true
+  storm: true
+M4X-337_restorednature:
+  sun: true
+  rain: true
+  storm: true
+MWG_max-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+Marvin_Megavolt-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+MrFinsGaming-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+NerdFailLP-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+OBwon1424-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+Pekenpaw-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+RicoandSeth-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+SansmanMG-homeworld-Ori:
+  sun: true
+  rain: true
+  storm: true
+Scriffon-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+SpookiZ-homeworld-Othala:
+  sun: true
+  rain: true
+  storm: true
+Tornadopelt-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+Xx_LoneWalker_xX-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+Zachfmac-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+ZeTroller-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+arcanebean-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+bramspijkerman-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+cyber2k-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+dakevid-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+frle1-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+mackeapple22-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+mainesi-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+maybe123-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+messra20-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+miner49er876-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+nick524-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+nosknut-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+oBTzz-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+rai_vintorez-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+random09-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+redwings644-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+spoonikle-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+tyfang360-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+yeoldecoot-homeworld-MilkyWay:
+  sun: true
+  rain: true
+  storm: true
+zackary29-homeworld-Destiny:
+  sun: true
+  rain: true
+  storm: true
+poeman1-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+wee_fin12-homeworld-Pegasus:
+  sun: true
+  rain: true
+  storm: true
+SPACE:
+  sun: true
+  rain: true
+  storm: true
+P9J-512:
+  sun: true
+  rain: true
+  storm: true

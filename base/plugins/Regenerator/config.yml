@@ -1,0 +1,16 @@
+# 
+# The main configuration file no longer stores any data relating to what worlds to handle etc.
+# For integration configuration, please see the /integrations/<plugin>.yml file associated with your grief protection plugin.
+# For world configuration (Such as intervals between chunks), see /worlds/worldname/world.yml.
+
+config-version: 2.1.9
+no-grief-run: false
+min-tps-regen: 10.0
+regen-on-chunk-unload: false
+regen-on-chunk-load: false
+regen-on-player-change-chunk: true
+regen-on-world-load: false
+regen-on-world-unload: false
+regen-on-player-change-chunk-range: 128
+default-autoregen: true
+default-manualregen: false

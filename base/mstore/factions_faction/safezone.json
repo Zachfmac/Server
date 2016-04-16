@@ -1,12 +1,13 @@
 {
-  "name": "SafeZone",
-  "description": "Free from PVP and monsters",
+  "name": "Protected Territory",
+  "description": "This area falls under the protection of the four races.",
   "createdAtMillis": 1460734482294,
   "flags": {
     "open": false,
     "permanent": true,
     "peaceful": true,
     "infpower": true,
+    "taxfree": true,
     "powerloss": false,
     "pvp": false,
     "friendlyfire": false,

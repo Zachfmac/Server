@@ -1,5 +1,5 @@
 {
-  "name": "WarZone",
+  "name": "Contested Territory",
   "description": "Not the safest place to be",
   "createdAtMillis": 1460734482295,
   "flags": {
@@ -9,6 +9,7 @@
     "infpower": true,
     "powerloss": true,
     "pvp": true,
+    "taxfree": true,
     "friendlyfire": true,
     "monsters": true,
     "animals": true,

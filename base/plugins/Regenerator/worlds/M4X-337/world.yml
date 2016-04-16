@@ -1,0 +1,6 @@
+interval: 5
+autoregen: true
+manualregen: true
+lastAction: 1460767512083
+skip-radius: 0
+populate-chunks: true

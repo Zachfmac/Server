@@ -1,7 +1,6 @@
 name: Faction
 nick: F
-format: '{color}[&l{nick}&r{color} &l&r{color}{sender}{color}]
-  &f{msg}'
+format: '{color}[&l{nick}&r{color} &l&r{color}{sender}{color}] &f{msg}'
 password: ''
 color: GREEN
 distance: 0

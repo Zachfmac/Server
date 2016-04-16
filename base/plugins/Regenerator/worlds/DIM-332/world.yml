@@ -1,0 +1,8 @@
+# 
+# Interval is the number of seconds a chunk must be inactive for before it can regenerate (manually or automatically).
+interval: 5
+autoregen: false
+manualregen: false
+lastAction: 0
+skip-radius: 0
+populate-chunks: true
