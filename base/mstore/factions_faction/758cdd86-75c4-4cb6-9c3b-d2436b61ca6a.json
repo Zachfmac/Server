@@ -8,6 +8,7 @@
     "peaceful": true,
     "infpower": true,
     "powerloss": false,
+    "taxfree": true,
     "pvp": false,
     "friendlyfire": false,
     "monsters": false,
