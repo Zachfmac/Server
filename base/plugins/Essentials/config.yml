@@ -238,7 +238,11 @@ kits:
       # Marine Boots
       - 5172 1
       # Subspace Receiver
-      - 6862
+      - 6862 1
+      # Kino Remote
+      - 7282 1
+      # GDO
+      - 7288 1
       # Marine Helm
       - 5173 1
       # Marine Leggings
