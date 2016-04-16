@@ -1,5 +1,5 @@
-interval: 5
-autoregen: false
+interval: 600
+autoregen: true
 manualregen: false
 lastAction: 0
 skip-radius: 0
