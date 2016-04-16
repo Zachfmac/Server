@@ -4,8 +4,8 @@
 &6Type &c/help&6 for a list of commands.
 &6Type &c/list&6 to see who else is online.
 &6Type &c/help changenotes&6 to see the changes for this release!
-&3Server Version: &73.9&3 Build: &73033338&3 (&704.16.16&3)
-§aRelease Info: &7Updated Taxation status for all NPC Factions
+&3Server Version: &7{SERVER_VERSION&3 Build: &{SERVER_BUILD}&3 (&7{SERVER_DATE}&3)
+§aRelease Info: &7{SERVER_MSG}
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
 &6Total players joined (ever): &c{UNIQUE}
 
