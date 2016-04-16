@@ -15,18 +15,6 @@ fill-autosave-frequency: 30
 bypass-list-uuids: []
 fill-memory-tolerance: 2500
 worlds:
-  Bysokar-homeworld-MilkyWay:
-    x: 580.5
-    z: -46.5
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Diamond_Hammer-homeworld-Destiny:
-    x: 80.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
   KS7-535:
     x: 8.494700163202376
     z: 6.55094576516296
@@ -44,12 +32,6 @@ worlds:
     z: -1006.5923571921038
     radiusX: 2500
     radiusZ: 2500
-    wrapping: false
-  maybe123-homeworld-Destiny:
-    x: 128.0
-    z: 302.0
-    radiusX: 128
-    radiusZ: 128
     wrapping: false
   Lantea:
     x: -295.0
@@ -165,95 +147,11 @@ worlds:
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
-  Darkstuffs-homeworld-Pegasus:
-    x: 6.0
-    z: 267.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  MWG_max-homeworld-Destiny:
-    x: -116.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  mainesi-homeworld-MilkyWay:
-    x: 144.0
-    z: 84.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Gipsonek-homeworld-MilkyWay:
-    x: 8.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Estilla-homeworld-Pegasus:
-    x: -246.0
-    z: 81.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  messra20-homeworld-Pegasus:
-    x: -44.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  spoonikle-homeworld-Pegasus:
-    x: -186.0
-    z: 242.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  nosknut-homeworld-Pegasus:
-    x: -200.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  tyfang360-homeworld-MilkyWay:
-    x: 232.0
-    z: 244.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
   D1X-209:
     x: 255.82625309080655
     z: 255.76465039235995
     radiusX: 2500
     radiusZ: 2500
-    wrapping: false
-  Pekenpaw-homeworld-Pegasus:
-    x: -192.0
-    z: 245.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Scriffon-homeworld-Pegasus:
-    x: -252.0
-    z: 240.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  nick524-homeworld-Destiny:
-    x: -96.0
-    z: 248.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  zackary29-homeworld-Destiny:
-    x: 41.0
-    z: -198.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  MrFinsGaming-homeworld-Pegasus:
-    x: 188.0
-    z: 232.0
-    radiusX: 128
-    radiusZ: 128
     wrapping: false
   P5J-612:
     x: -139.0
@@ -266,60 +164,6 @@ worlds:
     z: 4.0
     radiusX: 2500
     radiusZ: 2500
-    wrapping: false
-  DEVILMEDIC-homeworld-Pegasus:
-    x: 32.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  cyber2k-homeworld-Pegasus:
-    x: 220.0
-    z: 172.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Zachfmac-homeworld-Pegasus:
-    x: -44.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Joshowott-homeworld-Pegasus:
-    x: 555.0
-    z: -69.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  DnvnQuinn-homeworld-Othala:
-    x: -212.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  random09-homeworld-MilkyWay:
-    x: 216.0
-    z: 244.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  yeoldecoot-homeworld-MilkyWay:
-    x: -40.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Ashtarroth-homeworld-MilkyWay:
-    x: 103.0
-    z: -74.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  mackeapple22-homeworld-Pegasus:
-    x: 216.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
     wrapping: false
   P2Y-321:
     x: 168.15499183981112
@@ -339,23 +183,11 @@ worlds:
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
-  GermanLetsPaddel-homeworld-Pegasus:
-    x: 200.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
   DIM-411:
     x: 0.0
     z: 0.0
     radiusX: 2500
     radiusZ: 2500
-    wrapping: false
-  Awesomeface69-homeworld-MilkyWay:
-    x: -56.0
-    z: 236.0
-    radiusX: 128
-    radiusZ: 128
     wrapping: false
   DIM-331:
     x: -382.5
@@ -375,179 +207,11 @@ worlds:
     radiusX: 200000
     radiusZ: 200000
     wrapping: false
-  dakevid-homeworld-Destiny:
-    x: -128.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  KingBarge-homeworld-Othala:
-    x: -236.0
-    z: 8.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Falconlover22V2-homeworld-Ori:
-    x: -228.0
-    z: 196.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
   P9L-101:
     x: 0.5688581034409783
     z: -7.703352140047553
     radiusX: 2500
     radiusZ: 2500
-    wrapping: false
-  Captain_Nikolaus-homeworld-Pegasus:
-    x: -96.0
-    z: 176.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Marvin_Megavolt-homeworld-Pegasus:
-    x: -171.0
-    z: 242.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Xx_LoneWalker_xX-homeworld-Pegasus:
-    x: -256.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  OBwon1424-homeworld-Destiny:
-    x: 232.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  GodTheDarkLord-homeworld-Destiny:
-    x: 263.0
-    z: 229.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  DarkHeir-homeworld-Othala:
-    x: 121.0
-    z: 259.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  SpookiZ-homeworld-Othala:
-    x: 196.0
-    z: 84.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Diamand_Dragon-homeworld-Pegasus:
-    x: -140.0
-    z: 248.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  Tornadopelt-homeworld-MilkyWay:
-    x: -216.0
-    z: 240.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  SansmanMG-homeworld-Ori:
-    x: 20.0
-    z: 152.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  BilboSwagz-homeworld-Pegasus:
-    x: -204.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  frle1-homeworld-Pegasus:
-    x: 76.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  rai_vintorez-homeworld-Pegasus:
-    x: -232.0
-    z: 92.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  AZInuYasha-homeworld-Pegasus:
-    x: -208.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  bramspijkerman-homeworld-Pegasus:
-    x: -252.0
-    z: 80.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  ZeTroller-homeworld-Pegasus:
-    x: -216.0
-    z: 248.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  RicoandSeth-homeworld-Pegasus:
-    x: 148.0
-    z: 244.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  oBTzz-homeworld-Pegasus:
-    x: -255.0
-    z: 275.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  redwings644-homeworld-Pegasus:
-    x: 256.0
-    z: 240.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  NerdFailLP-homeworld-MilkyWay:
-    x: 64.0
-    z: 236.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  poeman1-homeworld-Pegasus:
-    x: 140.0
-    z: -112.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  GollumIsAGamer-homeworld-Pegasus:
-    x: -16.0
-    z: 220.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  miner49er876-homeworld-MilkyWay:
-    x: 184.0
-    z: 256.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  arcanebean-homeworld-MilkyWay:
-    x: -220.0
-    z: 207.0
-    radiusX: 128
-    radiusZ: 128
-    wrapping: false
-  ColonelSheppard-homeworld-MilkyWay:
-    x: -220.0
-    z: 252.0
-    radiusX: 128
-    radiusZ: 128
     wrapping: false
   P4X-555:
     x: -49.49767495000791
