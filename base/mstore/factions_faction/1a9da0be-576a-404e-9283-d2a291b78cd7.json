@@ -11,6 +11,7 @@
     "pvp": false,
     "friendlyfire": false,
     "monsters": false,
+    "taxfree": true,
     "animals": true,
     "explosions": false,
     "offlineexplosions": false,
