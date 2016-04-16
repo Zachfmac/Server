@@ -13,6 +13,7 @@
     "monsters": false,
     "animals": true,
     "explosions": false,
+    "taxfree": true,
     "offlineexplosions": false,
     "firespread": false,
     "endergrief": false,
