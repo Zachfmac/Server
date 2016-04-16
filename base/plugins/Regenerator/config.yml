@@ -11,6 +11,6 @@ regen-on-chunk-load: false
 regen-on-player-change-chunk: true
 regen-on-world-load: false
 regen-on-world-unload: false
-regen-on-player-change-chunk-range: 128
+regen-on-player-change-chunk-range: 256
 default-autoregen: true
 default-manualregen: false
