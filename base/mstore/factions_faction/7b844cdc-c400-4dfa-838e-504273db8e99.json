@@ -10,6 +10,7 @@
     "powerloss": false,
     "pvp": false,
     "friendlyfire": false,
+    "taxfree": true,
     "monsters": false,
     "animals": true,
     "explosions": false,
