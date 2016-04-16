@@ -12,6 +12,7 @@
     "friendlyfire": false,
     "monsters": false,
     "animals": true,
+    "taxfree" : true,
     "explosions": false,
     "offlineexplosions": false,
     "firespread": false,
