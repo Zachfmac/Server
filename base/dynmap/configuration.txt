@@ -48,7 +48,7 @@ components:
     # (optional) if true, color codes in player display names are used
     use-name-colors: false
     # (optional) if true, player login IDs will be used for web chat when their IPs match
-    use-player-login-ip: true
+    use-player-login-ip: false
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
     require-player-login-ip: false
     # (optional) block player login IDs that are banned from chatting
@@ -95,10 +95,10 @@ components:
   #  hide-if-invisiblity-potion: true
   #  hidenames: false
    
-  - class: org.dynmap.SimpleWebChatComponent
-    allowchat: true
+  #- class: org.dynmap.SimpleWebChatComponent
+  #  allowchat: false
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
-    allowurlname: false
+ #   allowurlname: false
   
   # Note: this component is needed for the dmarker commands, and for the Marker API to be available to other plugins
   - class: org.dynmap.MarkersComponent
