@@ -95,3 +95,9 @@ motds:
       - "The Asgard vessel, Olympus, departs here to Othala on a regular basis."
     joinmsg: ""
     leavemsg: ""
+  P4X-555:
+    motd:
+      - "Welcome to &3P4X-555&r in the &3MilkyWay&r Galaxy!"
+      - "Unclaimed land regenerates after 15 minutes on this world."
+    joinmsg: ""
+    leavemsg: ""
